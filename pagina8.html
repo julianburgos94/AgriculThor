@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AgriculThor - Mapa de Calor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #mapaCalor {
+            height: 600px;
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul class="navbar">
+            <li class="logo-container">
+                <a href="pagina2.html"><img src="img/amarillo.png" alt="Logo AgriculThor" class="logo" /></a>
+            </li>
+            <li><a href="pagina3.html">Clima</a></li>
+            <li><a href="pagina4.html">Precios</a></li>
+            <li><a href="pagina5.html">Alertas</a></li>
+            <li><a href="pagina6.html">Registrar Cosecha</a></li>
+            <li><a href="pagina7.html">Recomendaciones</a></li>
+            <li><a href="pagina8.html" class="active">Mapa</a></li>
+            <li id="logout-container" style="margin-left:auto;">
+                <button onclick="cerrarSesion()" class="logout-btn">Cerrar sesión</button>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>Mapa de Calor de Producción de Papa</h1>
+        <p>Visualización interactiva de las zonas con mayor actividad agrícola registrada.</p>
+        <div id="mapaCalor"></div>
+    </main>
+
+    <!-- Scripts necesarios -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    <script src="logout.js"></script>
+
+    <script>
+        // Inicializar el mapa centrado en Tunja
+        const mapa = L.map('mapaCalor').setView([5.535, -73.367], 8);
+
+        // Agregar capa base (OpenStreetMap)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap'
+        }).addTo(mapa);
+
+        // Cargar datos simulados desde JSON
+        fetch('datos_calor.json')
+            .then(response => response.json())
+            .then(data => {
+                // Generar puntos para el mapa de calor
+                const puntos = data.map(item => [item.lat, item.lon, item.intensidad]);
+
+                // Agregar capa de calor al mapa
+                L.heatLayer(puntos, {
+                    radius: 25,
+                    blur: 15,
+                    gradient: {
+                        0.4: 'blue',
+                        0.6: 'lime',
+                        0.9: 'red'
+                    }
+                }).addTo(mapa);
+
+                // Tooltips con marcadores invisibles pero interactivos
+                data.forEach(item => {
+                    const marcador = L.circleMarker([item.lat, item.lon], {
+                        radius: 0,
+                        opacity: 0,
+                        fillOpacity: 0,
+                        interactive: true // ✅ permite interacción con el mouse
+                    }).addTo(mapa);
+
+                    marcador.bindTooltip(
+                        `<strong>${item.nombre}</strong><br>Intensidad: ${(item.intensidad * 100).toFixed(0)}%`,
+                        {
+                            permanent: false,
+                            direction: 'top',
+                            className: 'tooltip-mapa'
+                        }
+                    );
+                });
+            })
+            .catch(error => {
+                console.error('Error al cargar los datos del mapa de calor:', error);
+            });
+        function cerrarSesion() {
+            localStorage.removeItem('agriculthorUser');
+            localStorage.removeItem('registrosCosecha');
+            window.location.href = 'index.html';
+        }
+    </script>
+
+
+</body>
+
+</html>

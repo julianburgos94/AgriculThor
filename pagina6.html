@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AgriculThor - Registrar Cosecha</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/logo.png" type="image/png" />
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <nav>
+    <ul class="navbar">
+      <!-- Logo con redirección -->
+      <li class="logo-container">
+        <a href="pagina2.html">
+          <img src="img/amarillo.png" alt="AgriculThor Logo" class="logo" />
+        </a>
+      </li>
+
+      <!-- Enlaces del menú -->
+      <li><a href="pagina3.html">Clima</a></li>
+      <li><a href="pagina4.html">Precios</a></li>
+      <li><a href="pagina5.html">Alertas</a></li>
+      <li><a href="pagina6.html">Registrar Cosecha</a></li>
+      <li><a href="pagina7.html">Recomendaciones</a></li>
+      <li><a href="pagina8.html">Mapa</a></li>
+
+      <!-- Botón de cerrar sesión alineado a la derecha -->
+      <li id="logout-container" style="margin-left: auto;">
+        <button onclick="cerrarSesion()" class="logout-btn">Cerrar sesión</button>
+      </li>
+    </ul>
+  </nav>
+
+
+  <main class="container">
+    <h1>Registrar tu Cosecha</h1>
+
+    <!-- Formulario para registrar nueva cosecha -->
+    <form id="cosechaForm">
+      <label for="tipoCultivo">Tipo de cultivo:</label>
+      <input type="text" id="tipoCultivo" value="Papa" readonly />
+
+      <label for="cantidad">Cantidad cosechada (kg):</label>
+      <input type="number" id="cantidad" min="1" required />
+
+      <label for="fechaSiembra">Fecha de siembra:</label>
+      <input type="date" id="fechaSiembra" required />
+
+      <label for="fechaRecoleccion">Fecha de recolección:</label>
+      <input type="date" id="fechaRecoleccion" required />
+
+      <button type="submit">Registrar Cosecha</button>
+      <p id="mensajeRegistro" class="success-msg"></p>
+    </form>
+
+    <!-- Tabla para mostrar las cosechas guardadas -->
+    <h2 style="margin-top: 2rem;">Tus Cosechas Registradas</h2>
+    <table id="tablaCosechas">
+      <thead>
+        <tr>
+          <th>Tipo</th>
+          <th>Cantidad (kg)</th>
+          <th>Fecha Siembra</th>
+          <th>Fecha Recolección</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Las cosechas se insertan aquí dinámicamente -->
+      </tbody>
+    </table>
+
+    <!-- Botón para eliminar todo el historial -->
+    <button onclick="borrarHistorial()" class="logout-btn" style="margin-top: 1.5rem;">🗑 Borrar historial de
+      cosechas</button>
+
+  </main>
+
+  <script>
+    const cosechaForm = document.getElementById('cosechaForm');
+    const mensajeRegistro = document.getElementById('mensajeRegistro');
+
+    // Registrar cosecha en localStorage
+    cosechaForm.addEventListener('submit', e => {
+      e.preventDefault();
+
+      const cosecha = {
+        tipoCultivo: document.getElementById('tipoCultivo').value,
+        cantidad: Number(document.getElementById('cantidad').value),
+        fechaSiembra: document.getElementById('fechaSiembra').value,
+        fechaRecoleccion: document.getElementById('fechaRecoleccion').value,
+      };
+
+      if (cosecha.cantidad <= 0) {
+        mensajeRegistro.textContent = 'La cantidad debe ser mayor que cero.';
+        mensajeRegistro.classList.remove('success-msg');
+        mensajeRegistro.classList.add('error-msg');
+        return;
+      }
+
+      if (new Date(cosecha.fechaSiembra) > new Date(cosecha.fechaRecoleccion)) {
+        mensajeRegistro.textContent = 'La fecha de siembra no puede ser posterior a la de recolección.';
+        mensajeRegistro.classList.remove('success-msg');
+        mensajeRegistro.classList.add('error-msg');
+        return;
+      }
+
+      let registros = JSON.parse(localStorage.getItem('registrosCosecha')) || [];
+      registros.push(cosecha);
+      localStorage.setItem('registrosCosecha', JSON.stringify(registros));
+
+      mensajeRegistro.textContent = '✅ Cosecha registrada exitosamente.';
+      mensajeRegistro.classList.remove('error-msg');
+      mensajeRegistro.classList.add('success-msg');
+
+      mostrarCosechas();
+      cosechaForm.reset();
+      document.getElementById('tipoCultivo').value = 'Papa';
+    });
+
+    // Mostrar cosechas guardadas
+    function mostrarCosechas() {
+      const registros = JSON.parse(localStorage.getItem('registrosCosecha')) || [];
+      const tbody = document.querySelector('#tablaCosechas tbody');
+      tbody.innerHTML = '';
+
+      registros.forEach(item => {
+        const fila = document.createElement('tr');
+        fila.innerHTML = `
+          <td>${item.tipoCultivo}</td>
+          <td>${item.cantidad}</td>
+          <td>${item.fechaSiembra}</td>
+          <td>${item.fechaRecoleccion}</td>
+        `;
+        tbody.appendChild(fila);
+      });
+    }
+    function cerrarSesion() {
+       localStorage.removeItem('agriculthorUser');
+       localStorage.removeItem('registrosCosecha'); // opcional, si quieres borrar datos
+       window.location.href = 'index.html'; // redirige al login
+     }
+
+    // Eliminar historial de cosechas
+    function borrarHistorial() {
+      if (confirm('¿Estás seguro de borrar todas las cosechas registradas?')) {
+        localStorage.removeItem('registrosCosecha');
+        mostrarCosechas();
+        mensajeRegistro.textContent = '🗑 Historial borrado correctamente.';
+        mensajeRegistro.classList.remove('error-msg');
+        mensajeRegistro.classList.add('success-msg');
+      }
+    }
+
+    // Mostrar registros al cargar la página
+    document.addEventListener('DOMContentLoaded', mostrarCosechas);
+  </script>
+  
+</body>
+
+</html>

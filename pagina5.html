@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AgriculThor - Alertas Relevantes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/logo.png" type="image/png" />
+  <style>
+    /* Estilo tarjetas de alerta */
+    .alerta-tarjeta {
+      background-color: #f9c74f;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      color: #555;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .alerta-tarjeta.clima {
+      background-color: #fff3cd;
+      color: #856404;
+    }
+
+    .fecha-actualizacion {
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <nav>
+    <ul class="navbar">
+      <!-- Logo con redirección -->
+      <li class="logo-container">
+        <a href="pagina2.html">
+          <img src="img/amarillo.png" alt="AgriculThor Logo" class="logo" />
+        </a>
+      </li>
+
+      <!-- Enlaces del menú -->
+      <li><a href="pagina3.html">Clima</a></li>
+      <li><a href="pagina4.html">Precios</a></li>
+      <li><a href="pagina5.html">Alertas</a></li>
+      <li><a href="pagina6.html">Registrar Cosecha</a></li>
+      <li><a href="pagina7.html">Recomendaciones</a></li>
+      <li><a href="pagina8.html">Mapa</a></li>
+
+      <!-- Botón de cerrar sesión alineado a la derecha -->
+      <li id="logout-container" style="margin-left: auto;">
+        <button onclick="cerrarSesion()" class="logout-btn">Cerrar sesión</button>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h1>Alertas Relevantes</h1>
+
+    <div id="alertasClima" class="alerta-tarjeta clima">
+      <p>Cargando alertas climáticas...</p>
+    </div>
+
+    <div id="alertasAgricolas" class="alerta-tarjeta">
+      <h2>Alertas agrícolas</h2>
+      <ul>
+        <li>⚠️ Alerta de plagas en la región de Boyacá: revisión urgente de cultivos de papa.</li>
+        <li>🌧 Pronóstico de lluvias intensas para los próximos días, tomar precauciones.</li>
+        <li>🔥 Temperaturas elevadas que podrían afectar la cosecha, considerar riego extra.</li>
+      </ul>
+    </div>
+
+    <p class="fecha-actualizacion" id="fechaActualizacion"></p>
+  </main>
+  <script>
+    function cerrarSesion() {
+       localStorage.removeItem('agriculthorUser');
+       localStorage.removeItem('registrosCosecha'); // opcional, si quieres borrar datos
+       window.location.href = 'index.html'; // redirige al login
+     }
+  </script>
+  <script src="alertas.js"></script>
+</body>
+
+</html>

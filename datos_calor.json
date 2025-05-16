@@ -1,0 +1,12 @@
+[
+    { "lat": 5.535, "lon": -73.367, "intensidad": 0.9, "nombre": "Tunja" },
+    { "lat": 5.755, "lon": -73.363, "intensidad": 0.7, "nombre": "Duitama" },
+    { "lat": 5.579, "lon": -73.524, "intensidad": 0.8, "nombre": "Sogamoso" },
+    { "lat": 5.883, "lon": -73.078, "intensidad": 0.6, "nombre": "Chiquinquirá" },
+    { "lat": 5.921, "lon": -73.401, "intensidad": 0.5, "nombre": "Paipa" },
+    { "lat": 5.620, "lon": -73.136, "intensidad": 0.3, "nombre": "Villa de Leyva" },
+    { "lat": 6.050, "lon": -73.220, "intensidad": 0.4, "nombre": "Santa Rosa de Viterbo" },
+    { "lat": 5.710, "lon": -73.910, "intensidad": 0.2, "nombre": "Saboyá" },
+    { "lat": 5.500, "lon": -73.750, "intensidad": 0.6, "nombre": "Arcabuco" }
+  ]
+  

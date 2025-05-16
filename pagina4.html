@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AgriculThor - Precios de Productos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/logo.png" type="image/png" />
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul class="navbar">
+            <!-- Logo con redirección -->
+            <li class="logo-container">
+                <a href="pagina2.html">
+                    <img src="img/amarillo.png" alt="AgriculThor Logo" class="logo" />
+                </a>
+            </li>
+
+            <!-- Enlaces del menú -->
+            <li><a href="pagina3.html">Clima</a></li>
+            <li><a href="pagina4.html">Precios</a></li>
+            <li><a href="pagina5.html">Alertas</a></li>
+            <li><a href="pagina6.html">Registrar Cosecha</a></li>
+            <li><a href="pagina7.html">Recomendaciones</a></li>
+            <li><a href="pagina8.html">Mapa</a></li>
+
+            <!-- Botón de cerrar sesión alineado a la derecha -->
+            <li id="logout-container" style="margin-left: auto;">
+                <button onclick="cerrarSesion()" class="logout-btn">Cerrar sesión</button>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main class="container">
+        <h1>Precios Estimados de Productos Agrícolas (Papa)</h1>
+        <table id="tablaPrecios">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio (COP/kg)</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se insertarán las filas dinámicamente -->
+            </tbody>
+        </table>
+    </main>
+
+
+    <script>
+        // Función para cargar y mostrar datos del archivo precios.json
+        async function cargarPrecios() {
+            try {
+                const respuesta = await fetch('precios.json');
+                const precios = await respuesta.json();
+                const tbody = document.querySelector('#tablaPrecios tbody');
+                tbody.innerHTML = ''; // Limpiar tabla
+
+                // Iterar y agregar filas por cada producto
+                precios.forEach(item => {
+                    const fila = document.createElement('tr');
+                    fila.innerHTML = `
+            <td>${item.producto}</td>
+            <td>${item.precio}</td>
+            <td>${item.fecha}</td>
+          `;
+                    tbody.appendChild(fila);
+                });
+            } catch (error) {
+                console.error('Error al cargar precios:', error);
+            }
+        }
+
+        // Cargar precios al cargar la página
+        document.addEventListener('DOMContentLoaded', cargarPrecios);
+
+        function cerrarSesion() {
+            localStorage.removeItem('agriculthorUser');
+            localStorage.removeItem('registrosCosecha'); // opcional, si quieres borrar datos
+            window.location.href = 'index.html'; // redirige al login
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+/* Estilo mejorado para el login */
+body.login-page {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), 
+              url('img/bienvenida.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.container.login {
+  background-color: rgba(255, 255, 255, 0.85); /* Más transparente */
+  padding: 3rem 4rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35);
+  width: 95%;
+  max-width: 600px; /* Más ancho */
+  box-sizing: border-box;
+  animation: fadeIn 0.8s ease;
+  backdrop-filter: blur(6px); /* Difuminado de fondo moderno */
+}
+
+
+/* Logo más grande con efectos */
+.login-logo {
+  width: 100px; /* Tamaño aumentado */
+  margin: 0 auto 2rem;
+  display: block;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+  transition: all 0.5s ease;
+}
+
+.login-logo:hover {
+  transform: scale(1.05) rotate(5deg);
+}
+
+/* Título con estilo */
+.container.login h1 {
+  color: #2E7D32;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.container.login h1:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(to right, #F9C74F, #4CAF50);
+  border-radius: 2px;
+}
+
+/* Formulario mejorado */
+#loginForm {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 1.8rem;
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.8rem;
+  color: #5a5a5a;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+
+/* Inputs con iconos perfectamente alineados */
+.form-group input {
+  width: 100%;
+  padding: 14px 15px 14px 45px;
+  border: 2px solid #e0e0e079;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  background-color: #f9f9f9a6;
+}
+
+.form-group input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+  background-color: #ffffffbd;
+}
+
+/* Iconos mejor posicionados */
+.form-group i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #4CAF50;
+  font-size: 1.2rem;
+  width: 20px;
+  text-align: center;
+}
+
+/* Botón con gradiente y efecto */
+#loginForm button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 1rem;
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+#loginForm button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(76, 175, 80, 0.4);
+}
+
+#loginForm button:active {
+  transform: translateY(1px);
+}
+
+/* Mensaje de error */
+.error-msg {
+  color: #8D6E63;
+  background-color: rgba(229, 57, 53, 0.1);
+  padding: 0.9rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  border-left: 4px solid #8D6E63;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Efecto de onda en el botón */
+@keyframes wave {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container.login {
+    padding: 2.5rem 1.8rem;
+  }
+  
+  .login-logo {
+    width: 160px;
+  }
+  
+  .container.login h1 {
+    font-size: 2rem;
+  }
+  
+  .form-group input {
+    padding: 12px 12px 12px 42px;
+  }
+}

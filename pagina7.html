@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AgriculThor - Recomendaciones</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/logo.png" type="image/png" />
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <nav>
+    <ul class="navbar">
+      <!-- Logo con redirección -->
+      <li class="logo-container">
+        <a href="pagina2.html">
+          <img src="img/amarillo.png" alt="AgriculThor Logo" class="logo" />
+        </a>
+      </li>
+
+      <!-- Enlaces del menú -->
+      <li><a href="pagina3.html">Clima</a></li>
+      <li><a href="pagina4.html">Precios</a></li>
+      <li><a href="pagina5.html">Alertas</a></li>
+      <li><a href="pagina6.html">Registrar Cosecha</a></li>
+      <li><a href="pagina7.html">Recomendaciones</a></li>
+      <li><a href="pagina8.html">Mapa</a></li>
+
+      <!-- Botón de cerrar sesión alineado a la derecha -->
+      <li id="logout-container" style="margin-left: auto;">
+        <button onclick="cerrarSesion()" class="logout-btn">Cerrar sesión</button>
+      </li>
+    </ul>
+  </nav>
+
+
+  <main class="container">
+    <h1>Recomendaciones para Cultivo de Papa</h1>
+
+    <!-- Entrada de blog -->
+    <article class="blog-post">
+      <h2>Uso General de Fertilizantes</h2>
+      <p>
+        Para el cultivo de papa en Boyacá, se recomienda utilizar fertilizantes ricos en nitrógeno al inicio del
+        cultivo, seguido de aplicaciones de fósforo y potasio en etapas intermedias. Un análisis del suelo es ideal para
+        determinar la dosis precisa.
+      </p>
+    </article>
+
+    <article class="blog-post">
+      <h2>Riego y Clima</h2>
+      <p>
+        Durante temporadas de baja lluvia, se aconseja mantener una humedad constante en el suelo. Evita
+        encharcamientos, ya que pueden afectar el desarrollo de los tubérculos.
+      </p>
+    </article>
+
+    <article class="blog-post">
+      <h2>Control de Plagas</h2>
+      <p>
+        Revisa tus cultivos al menos una vez por semana para detectar signos de plagas como el gusano blanco o el
+        escarabajo de la papa. Usa controles biológicos o químicos recomendados por expertos locales.
+      </p>
+    </article>
+
+
+  </main>
+
+  <script>
+    // Eliminar usuario almacenado y volver al login
+    function cerrarSesion() {
+      localStorage.removeItem('agriculthorUser');
+      localStorage.removeItem('registrosCosecha'); // si deseas limpiar registros también
+      window.location.href = 'index.html';
+    }
+
+    function cerrarSesion() {
+       localStorage.removeItem('agriculthorUser');
+       localStorage.removeItem('registrosCosecha'); // opcional, si quieres borrar datos
+       window.location.href = 'index.html'; // redirige al login
+     }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AgriculThor - Clima</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/logo.png" type="image/png" />
+
+  <style>
+    .clima-tarjeta {
+      padding: 1.5rem;
+      border-radius: 10px;
+      color: white;
+      text-align: center;
+      margin-top: 1.5rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .frio {
+      background-color: #2196f3;
+    }
+
+    .templado {
+      background-color: #f9c74f;
+      color: #333;
+    }
+
+    .calor {
+      background-color: #e53935;
+    }
+
+    .clima-tarjeta img {
+      width: 80px;
+      height: 80px;
+    }
+
+    .temp-principal {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .alertas {
+      background-color: #fff3cd;
+      color: #856404;
+      padding: 1rem;
+      border-radius: 6px;
+      margin-top: 1rem;
+    }
+
+    table#tablaPronostico {
+      margin-top: 2rem;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    #tablaPronostico th,
+    #tablaPronostico td {
+      border: 1px solid #ccc;
+      padding: 0.75rem;
+      text-align: center;
+    }
+
+    #tablaPronostico th {
+      background-color: var(--amarillo-maiz);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <nav>
+    <ul class="navbar">
+      <!-- Logo con redirección -->
+      <li class="logo-container">
+        <a href="pagina2.html">
+          <img src="img/amarillo.png" alt="AgriculThor Logo" class="logo" />
+        </a>
+      </li>
+
+      <!-- Enlaces del menú -->
+      <li><a href="pagina3.html">Clima</a></li>
+      <li><a href="pagina4.html">Precios</a></li>
+      <li><a href="pagina5.html">Alertas</a></li>
+      <li><a href="pagina6.html">Registrar Cosecha</a></li>
+      <li><a href="pagina7.html">Recomendaciones</a></li>
+      <li><a href="pagina8.html">Mapa</a></li>
+
+      <!-- Botón de cerrar sesión alineado a la derecha -->
+      <li id="logout-container" style="margin-left: auto;">
+        <button onclick="cerrarSesion()" class="logout-btn">Cerrar sesión</button>
+      </li>
+    </ul>
+  </nav>
+
+
+  <main class="container">
+    <h1>Clima en Tunja, Boyacá</h1>
+
+    <!-- Clima actual -->
+    <div id="datosClima">Cargando clima...</div>
+
+    <!-- Pronóstico de 8 días -->
+    <h2 style="margin-top: 3rem;">Pronóstico para los próximos 8 días</h2>
+    <table id="tablaPronostico">
+      <thead>
+        <tr>
+          <th>Día</th>
+          <th>Temp. Máx / Mín</th>
+          <th>Ícono</th>
+          <th>Condición</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Se llena dinámicamente con JS -->
+      </tbody>
+    </table>
+  </main>
+  
+  <script>
+    function cerrarSesion() {
+       localStorage.removeItem('agriculthorUser');
+       localStorage.removeItem('registrosCosecha'); // opcional, si quieres borrar datos
+       window.location.href = 'index.html'; // redirige al login
+     }
+  </script>
+
+
+  <script src="clima.js">
+   
+  </script>
+</body>
+
+</html>

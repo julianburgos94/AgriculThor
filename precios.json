@@ -1,0 +1,421 @@
+[
+ {
+  "Column1": "FECHA",
+  "Column2": "NUMERO DE REGISTRO O ASIENTO CONTABLE",
+  "Column3": "CODIGO CUENTA CONTABLE",
+  "Column4": "TERCERO",
+  "Column5": "DESCRIPCION DE LA OPERACIÓN",
+  " 385,061,130 ": "MOVIMIENTO DEBITO",
+  " 385,061,130 ": "MOVIMIENTO CREDITO"
+ },
+ {
+  "Column1": "03\/01\/2024",
+  "Column2": 1,
+  "Column3": 1435,
+  "Column4": "SHAKIRA",
+  "Column5": "COMPRA CHAQUETAS",
+  " 385,061,130 ": 1500000
+ },
+ {
+  "Column1": "03\/01\/2024",
+  "Column2": 1,
+  "Column3": 240802,
+  "Column4": "SHAKIRA",
+  "Column5": "COMPRA CHAQUETAS",
+  " 385,061,130 ": 285000
+ },
+ {
+  "Column1": "03\/01\/2024",
+  "Column2": 1,
+  "Column3": 236540,
+  "Column4": "SHAKIRA",
+  "Column5": "COMPRA CHAQUETAS",
+  " 385,061,130 ": 37500
+ },
+ {
+  "Column1": "03\/01\/2024",
+  "Column2": 1,
+  "Column3": 2368,
+  "Column4": "SHAKIRA",
+  "Column5": "COMPRA CHAQUETAS",
+  " 385,061,130 ": 15000
+ },
+ {
+  "Column1": "03\/01\/2024",
+  "Column2": 1,
+  "Column3": 2205,
+  "Column4": "SHAKIRA",
+  "Column5": "COMPRA CHAQUETAS",
+  " 385,061,130 ": 1732500
+ },
+ null,
+ {
+  "Column1": "08\/01\/2024",
+  "Column2": 2,
+  "Column3": 2205,
+  "Column4": "PIKE",
+  "Column5": "PAGO FACTURA N° 1 CHAQUETAS",
+  " 385,061,130 ": 1750000,
+  " 385,061,130 ": 0
+ },
+ {
+  "Column1": "08\/01\/2024",
+  "Column2": 2,
+  "Column3": 1110,
+  "Column4": "PIKE",
+  "Column5": "PAGO FACTURA N° 1CHAQUETAS",
+  " 385,061,130 ": 0,
+  " 385,061,130 ": 1750000
+ },
+ null,
+ {
+  "Column1": "08\/04\/2024",
+  "Column2": 3,
+  "Column3": 4135,
+  "Column4": "CLARA",
+  "Column5": "VENTA CHAQUETAS",
+  " 385,061,130 ": 2000000
+ },
+ {
+  "Column1": "08\/04\/2024",
+  "Column2": 3,
+  "Column3": 2408,
+  "Column4": "CLARA",
+  "Column5": "VENTA CHAQUETAS",
+  " 385,061,130 ": 380000
+ },
+ {
+  "Column1": "08\/04\/2024",
+  "Column2": 3,
+  "Column3": 135515,
+  "Column4": "CLARA",
+  "Column5": "VENTA CHAQUETAS",
+  " 385,061,130 ": 70000
+ },
+ {
+  "Column1": "08\/04\/2024",
+  "Column2": 3,
+  "Column3": 13558,
+  "Column4": "CLARA",
+  "Column5": "VENTA CHAQUETAS",
+  " 385,061,130 ": 12000
+ },
+ {
+  "Column1": "08\/04\/2024",
+  "Column2": 3,
+  "Column3": 2205,
+  "Column4": "CLARA",
+  "Column5": "VENTA CHAQUETAS",
+  " 385,061,130 ": 2298000
+ },
+ null,
+ {
+  "Column1": "08\/06\/2024",
+  "Column2": 4,
+  "Column3": 2205,
+  "Column4": "SASHA",
+  "Column5": "PAGO FACTURA N° 2 CHAQUETAS",
+  " 385,061,130 ": 2298000
+ },
+ {
+  "Column1": "08\/06\/2024",
+  "Column2": 4,
+  "Column3": 1105,
+  "Column4": "SASHA",
+  "Column5": "PAGO FACTURA N° 2 CHAQUETAS",
+  " 385,061,130 ": 2298000
+ },
+ null,
+ null,
+ {
+  "Column1": "08\/15\/2024",
+  "Column2": 5,
+  "Column3": 1435,
+  "Column4": "SAMSUNG",
+  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
+  " 385,061,130 ": 7000000
+ },
+ {
+  "Column1": "08\/15\/2024",
+  "Column2": 5,
+  "Column3": 240801,
+  "Column4": "SAMSUNG",
+  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
+  " 385,061,130 ": 1330000
+ },
+ {
+  "Column1": "08\/15\/2024",
+  "Column2": 5,
+  "Column3": 23654001,
+  "Column4": "SAMSUNG",
+  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
+  " 385,061,130 ": 0,
+  " 385,061,130 ": 175000
+ },
+ {
+  "Column1": "08\/15\/2024",
+  "Column2": 5,
+  "Column3": 2367,
+  "Column4": "SAMSUNG",
+  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
+  " 385,061,130 ": 0,
+  " 385,061,130 ": 199500
+ },
+ {
+  "Column1": "08\/15\/2024",
+  "Column2": 5,
+  "Column3": 2368,
+  "Column4": "SAMSUNG",
+  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
+  " 385,061,130 ": 0,
+  " 385,061,130 ": 49000
+ },
+ {
+  "Column1": "08\/15\/2024",
+  "Column2": 5,
+  "Column3": 2205,
+  "Column4": "SAMSUNG",
+  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
+  " 385,061,130 ": 0,
+  " 385,061,130 ": 7906500
+ },
+ null,
+ {
+  "Column1": "08\/15\/2024",
+  "Column2": 6,
+  "Column3": 1110,
+  "Column4": "SAMSUNG",
+  "Column5": "PAGO FACTURA N3",
+  " 385,061,130 ": 0,
+  " 385,061,130 ": 4165000
+ },
+ {
+  "Column1": "08\/15\/2024",
+  "Column2": 6,
+  "Column3": 2205,
+  "Column4": "SAMSUNG",
+  "Column5": "PAGO FACTURA N3",
+  " 385,061,130 ": 7906500,
+  "Column11": 0
+ },
+ {
+  "Column1": "08\/15\/2024",
+  "Column2": 6,
+  "Column3": 1105,
+  "Column4": "SAMSUNG",
+  "Column5": "PAGO FACTURA N3",
+  " 385,061,130 ": 0,
+  " 385,061,130 ": 3741500
+ },
+ null,
+ {
+  "Column1": "08\/20\/2024",
+  "Column2": 7,
+  "Column3": 154005,
+  "Column4": "ford",
+  "Column5": "compra camioneta",
+  " 385,061,130 ": 150000000
+ },
+ {
+  "Column1": "08\/20\/2024",
+  "Column2": 7,
+  "Column3": 240801,
+  "Column4": "ford",
+  "Column5": "iva descontable",
+  " 385,061,130 ": 28500000
+ },
+ {
+  "Column1": "08\/20\/2024",
+  "Column2": 7,
+  "Column3": 236540,
+  "Column4": "ford",
+  "Column5": "reterenta 2.5 declarante",
+  " 385,061,130 ": 3750000
+ },
+ {
+  "Column1": "08\/20\/2024",
+  "Column2": 7,
+  "Column3": 2367,
+  "Column4": "ford",
+  "Column5": "reteiva iva  compra camioneta ",
+  " 385,061,130 ": 4275000
+ },
+ {
+  "Column1": "08\/20\/2024",
+  "Column2": 7,
+  "Column3": 2368,
+  "Column4": "ford",
+  "Column5": "compra camioneta",
+  " 385,061,130 ": 22500000
+ },
+ {
+  "Column1": "08\/20\/2024",
+  "Column2": 7,
+  "Column3": 2205,
+  "Column4": "ford",
+  "Column5": "compra ",
+  " 385,061,130 ": 147975000
+ },
+ null,
+ {
+  "Column1": "08\/20\/2024",
+  "Column2": 7,
+  "Column3": 1110,
+  "Column4": "ford",
+  "Column5": "PAGO FACTURA N° 2 ",
+  " 385,061,130 ": 147975000
+ },
+ {
+  "Column1": "08\/20\/2024",
+  "Column2": 7,
+  "Column3": 2205,
+  "Column4": "ford",
+  "Column5": "PAGO FACTURA N° 2 ",
+  " 385,061,130 ": 147975000
+ },
+ null,
+ null,
+ {
+  "Column1": "08\/21\/2024",
+  "Column2": 8,
+  "Column3": 521501,
+  "Column4": "casino diamante",
+  "Column5": "impuesto funcionamiento ruleta",
+  " 385,061,130 ": 13649430
+ },
+ {
+  "Column1": "08\/21\/2024",
+  "Column2": 8,
+  "Column3": 2472,
+  "Column4": "casino diamante",
+  "Column5": "impuesto al azar y juegos",
+  " 385,061,130 ": 13649430
+ },
+ null,
+ null,
+ {
+  "Column1": "08\/21\/2024",
+  "Column2": 9,
+  "Column3": 529560,
+  "Column4": "casino diamante",
+  "Column5": "gasto por premio",
+  " 385,061,130 ": 4500000
+ },
+ {
+  "Column1": "08\/21\/2024",
+  "Column2": 9,
+  "Column3": 2370,
+  "Column4": "casino diamante",
+  "Column5": "reterenta por juegos al azar20% ",
+  " 385,061,130 ": 900000
+ },
+ {
+  "Column1": "08\/21\/2024",
+  "Column2": 9,
+  "Column3": 233595,
+  "Column4": "casino diamante",
+  "Column5": "premio por pagar",
+  " 385,061,130 ": 3600000
+ },
+ null,
+ {
+  "Column1": "08\/24\/2024",
+  "Column2": 10,
+  "Column3": 1435,
+  "Column4": "DIRCO",
+  "Column5": "COMPRA TINTAS Y TARJETAS",
+  " 385,061,130 ": 4000000
+ },
+ {
+  "Column1": "08\/24\/2024",
+  "Column2": 10,
+  "Column3": 2408,
+  "Column4": "DIRCO",
+  "Column5": "COMPRA TINTAS Y TARJETAS",
+  " 385,061,130 ": 760000
+ },
+ {
+  "Column1": "08\/24\/2024",
+  "Column2": 10,
+  "Column3": 236540,
+  "Column4": "DIRCO",
+  "Column5": "COMPRA TINTAS Y TARJETAS",
+  " 385,061,130 ": 140000
+ },
+ {
+  "Column1": "08\/24\/2024",
+  "Column2": 10,
+  "Column3": 2368,
+  "Column4": "DIRCO",
+  "Column5": "COMPRA TINTAS Y TARJETAS",
+  " 385,061,130 ": 24000
+ },
+ {
+  "Column1": "08\/24\/2024",
+  "Column2": 10,
+  "Column3": 1105,
+  "Column4": "DIRCO",
+  "Column5": "COMPRA TINTAS Y TARJETAS",
+  " 385,061,130 ": 4596000
+ },
+ null,
+ null,
+ null,
+ {
+  "Column1": "08\/26\/2024",
+  "Column2": 11,
+  "Column3": 4135,
+  "Column4": "FECRAFTS",
+  "Column5": "VENTA DE TINTAS Y TARJETAS",
+  " 385,061,130 ": 4800000
+ },
+ {
+  "Column1": "08\/26\/2024",
+  "Column2": 11,
+  "Column3": 2408,
+  "Column4": "FECRAFTS",
+  "Column5": "VENTA DE TINTAS Y TARJETAS",
+  " 385,061,130 ": 912000
+ },
+ {
+  "Column1": "08\/26\/2024",
+  "Column2": 11,
+  "Column3": 135515,
+  "Column4": "FECRAFTS",
+  "Column5": "VENTA DE TINTAS Y TARJETAS",
+  " 385,061,130 ": 168000.00000000003
+ },
+ {
+  "Column1": "08\/26\/2024",
+  "Column2": 11,
+  "Column3": 135518,
+  "Column4": "FECRAFTS",
+  "Column5": "VENTA DE TINTAS Y TARJETAS",
+  " 385,061,130 ": 28800
+ },
+ {
+  "Column1": "08\/26\/2024",
+  "Column2": 11,
+  "Column3": 2205,
+  "Column4": "FECRAFTS",
+  "Column5": "VENTA DE TINTAS Y TARJETAS",
+  " 385,061,130 ": 5515200
+ },
+ null,
+ {
+  "Column1": "08\/28\/2024",
+  "Column2": 11,
+  "Column3": 1105,
+  "Column4": "FECRAFTS",
+  "Column5": "PAGO FACTURA VENTA 4",
+  " 385,061,130 ": 5515200
+ },
+ {
+  "Column1": "08\/28\/2024",
+  "Column2": 11,
+  "Column3": 2205,
+  "Column4": "FECRAFTS",
+  "Column5": "PAGO FACTURA VENTA 4",
+  " 385,061,130 ": 5515200
+ }
+]
