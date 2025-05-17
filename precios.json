@@ -1,421 +1,4309 @@
-[
+{
+"Hoja1":[
  {
-  "Column1": "FECHA",
-  "Column2": "NUMERO DE REGISTRO O ASIENTO CONTABLE",
-  "Column3": "CODIGO CUENTA CONTABLE",
-  "Column4": "TERCERO",
-  "Column5": "DESCRIPCION DE LA OPERACIÓN",
-  " 385,061,130 ": "MOVIMIENTO DEBITO",
-  " 385,061,130 ": "MOVIMIENTO CREDITO"
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Alisin",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 61500
  },
  {
-  "Column1": "03\/01\/2024",
-  "Column2": 1,
-  "Column3": 1435,
-  "Column4": "SHAKIRA",
-  "Column5": "COMPRA CHAQUETAS",
-  " 385,061,130 ": 1500000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "CapsiAlil Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 248500
  },
  {
-  "Column1": "03\/01\/2024",
-  "Column2": 1,
-  "Column3": 240802,
-  "Column4": "SHAKIRA",
-  "Column5": "COMPRA CHAQUETAS",
-  " 385,061,130 ": 285000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Sáfermix Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 46566.6666667
  },
  {
-  "Column1": "03\/01\/2024",
-  "Column2": 1,
-  "Column3": 236540,
-  "Column4": "SHAKIRA",
-  "Column5": "COMPRA CHAQUETAS",
-  " 385,061,130 ": 37500
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Sáfersoil Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 39350
  },
  {
-  "Column1": "03\/01\/2024",
-  "Column2": 1,
-  "Column3": 2368,
-  "Column4": "SHAKIRA",
-  "Column5": "COMPRA CHAQUETAS",
-  " 385,061,130 ": 15000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Serenade 1.34 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 56580
  },
  {
-  "Column1": "03\/01\/2024",
-  "Column2": 1,
-  "Column3": 2205,
-  "Column4": "SHAKIRA",
-  "Column5": "COMPRA CHAQUETAS",
-  " 385,061,130 ": 1732500
- },
- null,
- {
-  "Column1": "08\/01\/2024",
-  "Column2": 2,
-  "Column3": 2205,
-  "Column4": "PIKE",
-  "Column5": "PAGO FACTURA N° 1 CHAQUETAS",
-  " 385,061,130 ": 1750000,
-  " 385,061,130 ": 0
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Agrotin Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 24880
  },
  {
-  "Column1": "08\/01\/2024",
-  "Column2": 2,
-  "Column3": 1110,
-  "Column4": "PIKE",
-  "Column5": "PAGO FACTURA N° 1CHAQUETAS",
-  " 385,061,130 ": 0,
-  " 385,061,130 ": 1750000
- },
- null,
- {
-  "Column1": "08\/04\/2024",
-  "Column2": 3,
-  "Column3": 4135,
-  "Column4": "CLARA",
-  "Column5": "VENTA CHAQUETAS",
-  " 385,061,130 ": 2000000
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Carrier",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 34333.3333333
  },
  {
-  "Column1": "08\/04\/2024",
-  "Column2": 3,
-  "Column3": 2408,
-  "Column4": "CLARA",
-  "Column5": "VENTA CHAQUETAS",
-  " 385,061,130 ": 380000
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Cosmo-Aguas",
+  "Presentación del producto": "200 gramos",
+  "Precio promedio ": 11750
  },
  {
-  "Column1": "08\/04\/2024",
-  "Column2": 3,
-  "Column3": 135515,
-  "Column4": "CLARA",
-  "Column5": "VENTA CHAQUETAS",
-  " 385,061,130 ": 70000
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Marax 10 Sp",
+  "Presentación del producto": "10 gramos",
+  "Precio promedio ": 8750
  },
  {
-  "Column1": "08\/04\/2024",
-  "Column2": 3,
-  "Column3": 13558,
-  "Column4": "CLARA",
-  "Column5": "VENTA CHAQUETAS",
-  " 385,061,130 ": 12000
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Matababosa 7%",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 15000
  },
  {
-  "Column1": "08\/04\/2024",
-  "Column2": 3,
-  "Column3": 2205,
-  "Column4": "CLARA",
-  "Column5": "VENTA CHAQUETAS",
-  " 385,061,130 ": 2298000
- },
- null,
- {
-  "Column1": "08\/06\/2024",
-  "Column2": 4,
-  "Column3": 2205,
-  "Column4": "SASHA",
-  "Column5": "PAGO FACTURA N° 2 CHAQUETAS",
-  " 385,061,130 ": 2298000
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Mixel Top Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19566.6666667
  },
  {
-  "Column1": "08\/06\/2024",
-  "Column2": 4,
-  "Column3": 1105,
-  "Column4": "SASHA",
-  "Column5": "PAGO FACTURA N° 2 CHAQUETAS",
-  " 385,061,130 ": 2298000
- },
- null,
- null,
- {
-  "Column1": "08\/15\/2024",
-  "Column2": 5,
-  "Column3": 1435,
-  "Column4": "SAMSUNG",
-  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
-  " 385,061,130 ": 7000000
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Mixel Top Sl",
+  "Presentación del producto": "4 litros",
+  "Precio promedio ": 70000
  },
  {
-  "Column1": "08\/15\/2024",
-  "Column2": 5,
-  "Column3": 240801,
-  "Column4": "SAMSUNG",
-  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
-  " 385,061,130 ": 1330000
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Pegal Ph AE",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 50225
  },
  {
-  "Column1": "08\/15\/2024",
-  "Column2": 5,
-  "Column3": 23654001,
-  "Column4": "SAMSUNG",
-  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
-  " 385,061,130 ": 0,
-  " 385,061,130 ": 175000
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Progibb 10 Sp",
+  "Presentación del producto": "10 gramos",
+  "Precio promedio ": 10780
  },
  {
-  "Column1": "08\/15\/2024",
-  "Column2": 5,
-  "Column3": 2367,
-  "Column4": "SAMSUNG",
-  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
-  " 385,061,130 ": 0,
-  " 385,061,130 ": 199500
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Agrotin Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 24987.5
  },
  {
-  "Column1": "08\/15\/2024",
-  "Column2": 5,
-  "Column3": 2368,
-  "Column4": "SAMSUNG",
-  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
-  " 385,061,130 ": 0,
-  " 385,061,130 ": 49000
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Carrier",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 35000
  },
  {
-  "Column1": "08\/15\/2024",
-  "Column2": 5,
-  "Column3": 2205,
-  "Column4": "SAMSUNG",
-  "Column5": "COMPRA 2 TELEVISORES DE 50 PULGADAS",
-  " 385,061,130 ": 0,
-  " 385,061,130 ": 7906500
- },
- null,
- {
-  "Column1": "08\/15\/2024",
-  "Column2": 6,
-  "Column3": 1110,
-  "Column4": "SAMSUNG",
-  "Column5": "PAGO FACTURA N3",
-  " 385,061,130 ": 0,
-  " 385,061,130 ": 4165000
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Cosmo-Aguas",
+  "Presentación del producto": "200 gramos",
+  "Precio promedio ": 11750
  },
  {
-  "Column1": "08\/15\/2024",
-  "Column2": 6,
-  "Column3": 2205,
-  "Column4": "SAMSUNG",
-  "Column5": "PAGO FACTURA N3",
-  " 385,061,130 ": 7906500,
-  "Column11": 0
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Matababosa 7%",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 15166.6666667
  },
  {
-  "Column1": "08\/15\/2024",
-  "Column2": 6,
-  "Column3": 1105,
-  "Column4": "SAMSUNG",
-  "Column5": "PAGO FACTURA N3",
-  " 385,061,130 ": 0,
-  " 385,061,130 ": 3741500
- },
- null,
- {
-  "Column1": "08\/20\/2024",
-  "Column2": 7,
-  "Column3": 154005,
-  "Column4": "ford",
-  "Column5": "compra camioneta",
-  " 385,061,130 ": 150000000
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Mixel Top Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19566.6666667
  },
  {
-  "Column1": "08\/20\/2024",
-  "Column2": 7,
-  "Column3": 240801,
-  "Column4": "ford",
-  "Column5": "iva descontable",
-  " 385,061,130 ": 28500000
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Mixel Top Sl",
+  "Presentación del producto": "4 litros",
+  "Precio promedio ": 70000
  },
  {
-  "Column1": "08\/20\/2024",
-  "Column2": 7,
-  "Column3": 236540,
-  "Column4": "ford",
-  "Column5": "reterenta 2.5 declarante",
-  " 385,061,130 ": 3750000
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Pegal Ph AE",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 50700
  },
  {
-  "Column1": "08\/20\/2024",
-  "Column2": 7,
-  "Column3": 2367,
-  "Column4": "ford",
-  "Column5": "reteiva iva  compra camioneta ",
-  " 385,061,130 ": 4275000
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Progibb 10 Sp",
+  "Presentación del producto": "10 gramos",
+  "Precio promedio ": 10780
  },
  {
-  "Column1": "08\/20\/2024",
-  "Column2": 7,
-  "Column3": 2368,
-  "Column4": "ford",
-  "Column5": "compra camioneta",
-  " 385,061,130 ": 22500000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Agrotin Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 24870
  },
  {
-  "Column1": "08\/20\/2024",
-  "Column2": 7,
-  "Column3": 2205,
-  "Column4": "ford",
-  "Column5": "compra ",
-  " 385,061,130 ": 147975000
- },
- null,
- {
-  "Column1": "08\/20\/2024",
-  "Column2": 7,
-  "Column3": 1110,
-  "Column4": "ford",
-  "Column5": "PAGO FACTURA N° 2 ",
-  " 385,061,130 ": 147975000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Carrier",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 35800
  },
  {
-  "Column1": "08\/20\/2024",
-  "Column2": 7,
-  "Column3": 2205,
-  "Column4": "ford",
-  "Column5": "PAGO FACTURA N° 2 ",
-  " 385,061,130 ": 147975000
- },
- null,
- null,
- {
-  "Column1": "08\/21\/2024",
-  "Column2": 8,
-  "Column3": 521501,
-  "Column4": "casino diamante",
-  "Column5": "impuesto funcionamiento ruleta",
-  " 385,061,130 ": 13649430
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Cosmo-Aguas",
+  "Presentación del producto": "200 gramos",
+  "Precio promedio ": 11750
  },
  {
-  "Column1": "08\/21\/2024",
-  "Column2": 8,
-  "Column3": 2472,
-  "Column4": "casino diamante",
-  "Column5": "impuesto al azar y juegos",
-  " 385,061,130 ": 13649430
- },
- null,
- null,
- {
-  "Column1": "08\/21\/2024",
-  "Column2": 9,
-  "Column3": 529560,
-  "Column4": "casino diamante",
-  "Column5": "gasto por premio",
-  " 385,061,130 ": 4500000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Hormonagro Ana",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 38000
  },
  {
-  "Column1": "08\/21\/2024",
-  "Column2": 9,
-  "Column3": 2370,
-  "Column4": "casino diamante",
-  "Column5": "reterenta por juegos al azar20% ",
-  " 385,061,130 ": 900000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Marax",
+  "Presentación del producto": "8 gramos",
+  "Precio promedio ": 9500
  },
  {
-  "Column1": "08\/21\/2024",
-  "Column2": 9,
-  "Column3": 233595,
-  "Column4": "casino diamante",
-  "Column5": "premio por pagar",
-  " 385,061,130 ": 3600000
- },
- null,
- {
-  "Column1": "08\/24\/2024",
-  "Column2": 10,
-  "Column3": 1435,
-  "Column4": "DIRCO",
-  "Column5": "COMPRA TINTAS Y TARJETAS",
-  " 385,061,130 ": 4000000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Matababosa 7%",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 14750
  },
  {
-  "Column1": "08\/24\/2024",
-  "Column2": 10,
-  "Column3": 2408,
-  "Column4": "DIRCO",
-  "Column5": "COMPRA TINTAS Y TARJETAS",
-  " 385,061,130 ": 760000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Mixel Top Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19900
  },
  {
-  "Column1": "08\/24\/2024",
-  "Column2": 10,
-  "Column3": 236540,
-  "Column4": "DIRCO",
-  "Column5": "COMPRA TINTAS Y TARJETAS",
-  " 385,061,130 ": 140000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Mixel Top Sl",
+  "Presentación del producto": "4 litros",
+  "Precio promedio ": 70000
  },
  {
-  "Column1": "08\/24\/2024",
-  "Column2": 10,
-  "Column3": 2368,
-  "Column4": "DIRCO",
-  "Column5": "COMPRA TINTAS Y TARJETAS",
-  " 385,061,130 ": 24000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Pegal Ph AE",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 50700
  },
  {
-  "Column1": "08\/24\/2024",
-  "Column2": 10,
-  "Column3": 1105,
-  "Column4": "DIRCO",
-  "Column5": "COMPRA TINTAS Y TARJETAS",
-  " 385,061,130 ": 4596000
- },
- null,
- null,
- null,
- {
-  "Column1": "08\/26\/2024",
-  "Column2": 11,
-  "Column3": 4135,
-  "Column4": "FECRAFTS",
-  "Column5": "VENTA DE TINTAS Y TARJETAS",
-  " 385,061,130 ": 4800000
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Progibb 10 Sp",
+  "Presentación del producto": "10 gramos",
+  "Precio promedio ": 10780
  },
  {
-  "Column1": "08\/26\/2024",
-  "Column2": 11,
-  "Column3": 2408,
-  "Column4": "FECRAFTS",
-  "Column5": "VENTA DE TINTAS Y TARJETAS",
-  " 385,061,130 ": 912000
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "10-20-30-1",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 149500
  },
  {
-  "Column1": "08\/26\/2024",
-  "Column2": 11,
-  "Column3": 135515,
-  "Column4": "FECRAFTS",
-  "Column5": "VENTA DE TINTAS Y TARJETAS",
-  " 385,061,130 ": 168000.00000000003
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "13-26-6",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 185000
  },
  {
-  "Column1": "08\/26\/2024",
-  "Column2": 11,
-  "Column3": 135518,
-  "Column4": "FECRAFTS",
-  "Column5": "VENTA DE TINTAS Y TARJETAS",
-  " 385,061,130 ": 28800
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "15-15-15",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 146018.6
  },
  {
-  "Column1": "08\/26\/2024",
-  "Column2": 11,
-  "Column3": 2205,
-  "Column4": "FECRAFTS",
-  "Column5": "VENTA DE TINTAS Y TARJETAS",
-  " 385,061,130 ": 5515200
- },
- null,
- {
-  "Column1": "08\/28\/2024",
-  "Column2": 11,
-  "Column3": 1105,
-  "Column4": "FECRAFTS",
-  "Column5": "PAGO FACTURA VENTA 4",
-  " 385,061,130 ": 5515200
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "17-6-18-2(Mg)",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 139966.6666667
  },
  {
-  "Column1": "08\/28\/2024",
-  "Column2": 11,
-  "Column3": 2205,
-  "Column4": "FECRAFTS",
-  "Column5": "PAGO FACTURA VENTA 4",
-  " 385,061,130 ": 5515200
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "18-18-18",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 143257.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "18-18-18-1(Mg)",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 139500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "31-8-8-2",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 137250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins 8-5-0-6",
+  "Presentación del producto": "46 kilogramos",
+  "Precio promedio ": 134800
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins Completo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28077.8571429
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins Inicio",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19396.25
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins K Calcio Boro",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 21731.125
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Aminoset",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 48075
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Biozyme TF",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 135000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Borozinco Foliar",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 29000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Calfos Granulado",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 59000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Cerostress",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 45200
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Cloruro de Potasio 0-0-60",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 116833.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Crecer 500",
+  "Presentación del producto": "900 gramos",
+  "Precio promedio ": 12637.5
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fertilizante Orgánico de Lombriz San Rafael",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 20600
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Ferti-Soil",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 16000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Formador 2000",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 50766.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fosfato Diamónico (DAP) 18-46-0",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 186457.1428571
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fosfostress",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 40400
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Isabion",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 81380
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Klip - K Calcio-Boro",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 24333.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Klip Boro",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 21475
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nutrifoliar Completo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nutrimins",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 18900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Omex K-41",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 48500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Potak 41",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 32333.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Raizal 400: 9-45-11",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 32000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Todo en Uno",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 9825
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Todo en Uno NF",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 10675
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Tottal",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 23350
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Urea 46%",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 125118.75
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "10-20-30-1",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 155500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "13-26-6",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 188875
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "15-15-15",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 154444.4444444
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "17-6-18-2(Mg)",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 150333.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "18-18-18",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 146441.5
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "18-18-18-1(Mg)",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 145362.5
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "31-8-8-2",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 134000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins 8-5-0-6",
+  "Presentación del producto": "46 kilogramos",
+  "Precio promedio ": 134833.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins Completo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28139.5714286
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins Inicio",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19983
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins K Calcio Boro",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 22199.875
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Ana-Bor",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 40525
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Biozyme TF",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 132500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Borozinco Foliar",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 32000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Calfos Granulado",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 62833.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Cerostress",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 44900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Cloruro de Potasio 0-0-60",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 117171.4285714
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Crecer 500",
+  "Presentación del producto": "900 gramos",
+  "Precio promedio ": 12637.5
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fertilizante Orgánico de Lombriz San Rafael",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 20500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Ferti-Soil",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 16000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Formador 2000",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 53280
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fosfato Diamónico (DAP) 18-46-0",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 199285.7142857
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fosfostress",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 40900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Isabion",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 80316.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Kadostim",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 64250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Klip - K Calcio-Boro",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 24666.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Klip Boro",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 21720
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nutrifoliar Completo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nutrimins",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 18333.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Omex K-41",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 48500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Potak 41",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 30666.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Rafos 12-24-12-2",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 194497.5
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Raizal 400: 9-45-11",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 32000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Sulfato de Amonio (SAM) 21-0-0-24(S)",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 90500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Todo en Uno",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 9720
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Todo en Uno NF",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 10783.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Tottal",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 26850
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Urea 46%",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 128788.8888889
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "10-20-30-1",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 155500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "10-30-10",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 188750
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "13-26-6",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 189250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "15-15-15",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 152246.7272727
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "17-6-18-2(Mg)",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 146225
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "18-18-18",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 146666.5
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "18-18-18-1(Mg)",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 146100
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "31-8-8-2",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 134833.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins 8-5-0-6",
+  "Presentación del producto": "46 kilogramos",
+  "Precio promedio ": 136600
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins Completo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28412.8333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins Inicio",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 24033
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Agrimins K Calcio Boro",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 22318.625
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Ana-Bor",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 43075
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Biozyme TF",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 137500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Borozinco Foliar",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Calfos Granulado",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 64333.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Cerostress",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 45800
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Cloruro de Potasio 0-0-60",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 115340
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Crecer 500",
+  "Presentación del producto": "900 gramos",
+  "Precio promedio ": 12812.5
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fertilizante Orgánico de Lombriz San Rafael",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 20400
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Formador 2000",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 52880
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fosfato Diamónico (DAP) 18-46-0",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 203775
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Isabion",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 75180
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Klip - K Calcio-Boro",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 24000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Klip Boro",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 20950
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nutrifoliar Completo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nutrimins",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19425
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Omex K-41",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 48500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Potak 41",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 30333.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Raizal 400: 9-45-11",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 32500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Sulfato de Amonio (SAM) 21-0-0-24(S)",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 90500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Todo en Uno",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 10500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Todo en Uno NF",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 11250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Tottal",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 27350
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Urea 46%",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 134210
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Alto 100 Sl",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 39372
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Amistar Top",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 276733.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Antracol 70 Wp",
+  "Presentación del producto": "400 gramos",
+  "Precio promedio ": 26218.1818182
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Azoxystrobin 50 Wg",
+  "Presentación del producto": "40 gramos",
+  "Precio promedio ": 28600
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Benomyl 50 Wp",
+  "Presentación del producto": "100 gramos",
+  "Precio promedio ": 10000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Cabrio Top Wg",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 55000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Carbendazim 500 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 31850
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Curaxil",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 15525
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Curzate M-8",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 21700
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Daconil 720 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 41075
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Daconil 720 Sc",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 14500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Difenoconazol 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 93222.2222222
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Difenoconazol 250 Ec",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 34950
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Elosal 720 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Elosal 720 Sc",
+  "Presentación del producto": "5 litros",
+  "Precio promedio ": 113900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fitoraz 76 Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 27908.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Forum 500 Wp",
+  "Presentación del producto": "120 gramos",
+  "Precio promedio ": 16500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fosetyl Aluminio 80 Wp",
+  "Presentación del producto": "330 gramos",
+  "Precio promedio ": 20150
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Glory 75 Wg",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 53500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Infinito Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 145425
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Kasugamicina 20 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 38725
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Kasumin 2% Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 38380
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Luna Tranquility",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 271300
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Luna Tranquility",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 72350
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Mancozeb 80 Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 22407.1428571
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Manzate 200 Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 22783.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Mertect 500 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 339900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Mertect 500 Sc",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 41200
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nativo Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 155250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Orthocide 50%",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 44000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Orthocide 50%",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 22700
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Oxicloruro de Cobre 35% Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 15750
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Oxicloruro de Cobre 58,8% Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 14100
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Prevalor Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 146500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Rally Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 294633.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Revus 250 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 218400
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Revus 250 Sc",
+  "Presentación del producto": "125 centímetros cúbicos",
+  "Precio promedio ": 32000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Ridomil Gold MZ 68 Wg",
+  "Presentación del producto": "375 gramos",
+  "Precio promedio ": 30740
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Ridomil Gold MZ 68 Wp",
+  "Presentación del producto": "375 gramos",
+  "Precio promedio ": 27600
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Score 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 191400
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Score 250 Ec",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 24635.7142857
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Score 250 Ec",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 55511.8
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Silvacur Combi 300 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 150233.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Tilt 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 126683.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Trivia Wp",
+  "Presentación del producto": "400 gramos",
+  "Precio promedio ": 29585
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Vitavax 300",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 59200
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Zoom 650 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 87812.5
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Alto 100 Sl",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 38635.4
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Amistar Top",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 296125
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Amistar Top",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 82450
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Antracol 70 Wp",
+  "Presentación del producto": "400 gramos",
+  "Precio promedio ": 26009.0909091
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Azoxystrobin 50 Wg",
+  "Presentación del producto": "40 gramos",
+  "Precio promedio ": 28255.5555556
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Benomyl 50 Wp",
+  "Presentación del producto": "100 gramos",
+  "Precio promedio ": 8500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Cabrio Top Wg",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 55000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Carbendazim 500 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 31300
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Curaxil",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 16350
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Curzate M-8",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 19050
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Daconil 720 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 42291.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Daconil 720 Sc",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 15042.8571429
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Difenoconazol 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 93950
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Difenoconazol 250 Ec",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 37860
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Elosal 720 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28218.1818182
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fitoraz 76 Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 27800
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Forum 500 Wp",
+  "Presentación del producto": "120 gramos",
+  "Precio promedio ": 17166.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Glory 75 Wg",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 53550
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Infinito Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 144890
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Infinito Sc",
+  "Presentación del producto": "200 centímetros cúbicos",
+  "Precio promedio ": 36933.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Inspire Gold",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 193625
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Kasugamicina 20 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 40000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Kasumin 2% Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 38700
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Luna Tranquility",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 268800
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Luna Tranquility",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 70500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Mancozeb 80 Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 22230.5714286
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Manzate 200 Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 22733.2
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Mertect 500 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 344066.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Mertect 500 Sc",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 41428.5714286
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nativo Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 158425
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nativo Sc",
+  "Presentación del producto": "120 centímetros cúbicos",
+  "Precio promedio ": 20666.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Orthocide 50%",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 43500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Orthocide 50%",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 22200
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Oxicloruro de Cobre 58,8% Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 13933.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Predostar",
+  "Presentación del producto": "300 gramos",
+  "Precio promedio ": 23666.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Prevalor Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 145500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Rally Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 294633.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Revus 250 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 218400
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Revus 250 Sc",
+  "Presentación del producto": "125 centímetros cúbicos",
+  "Precio promedio ": 32000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Ridomil Gold MZ 68 Wg",
+  "Presentación del producto": "375 gramos",
+  "Precio promedio ": 31140
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Ridomil Gold MZ 68 Wp",
+  "Presentación del producto": "375 gramos",
+  "Precio promedio ": 27700
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Score 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 191528.5714286
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Score 250 Ec",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 24905.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Score 250 Ec",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 55843.1666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Silvacur Combi 300 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 155900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Tilt 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 131220
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Tilt 250 Ec",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 19900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Trivia Wp",
+  "Presentación del producto": "400 gramos",
+  "Precio promedio ": 29738.8888889
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Valthione 3 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 35900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Vitavax 300",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 54800
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Zoom 650 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 87878.5714286
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Alto 100 Sl",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 39794.25
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Amistar Top",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 296125
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Amistar Top",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 81500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Antracol 70 Wp",
+  "Presentación del producto": "400 gramos",
+  "Precio promedio ": 25844.4444444
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Antrasín Pc",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 35500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Azoxystrobin 50 Wg",
+  "Presentación del producto": "40 gramos",
+  "Precio promedio ": 28311.1111111
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Carbendazim 500 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 32815.3846154
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Curaxil",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 17083.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Curzate M-8",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 21070
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Daconil 720 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 42837.5
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Daconil 720 Sc",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 15242.8571429
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Difenoconazol 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 95200
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Difenoconazol 250 Ec",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 35900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Elosal 720 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 27122.7272727
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Elosal 720 Sc",
+  "Presentación del producto": "5 litros",
+  "Precio promedio ": 114500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fitoraz 76 Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 28018.1818182
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Forum 500 Wp",
+  "Presentación del producto": "120 gramos",
+  "Precio promedio ": 16875
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Fosetyl Aluminio 80 Wp",
+  "Presentación del producto": "330 gramos",
+  "Precio promedio ": 19250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Infinito Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 145680
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Infinito Sc",
+  "Presentación del producto": "200 centímetros cúbicos",
+  "Precio promedio ": 36125
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Inspire Gold",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 190250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Kasugamicina 20 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 40000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Kasumin 2% Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 36283.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Luna Tranquility",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 264000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Luna Tranquility",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 71466.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Mancozeb 80 Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 22951.75
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Manzate 200 Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 22481.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Mertect 500 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 340616.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Mertect 500 Sc",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 42314.2857143
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nativo Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 153133.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Nativo Sc",
+  "Presentación del producto": "120 centímetros cúbicos",
+  "Precio promedio ": 20866.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Orthocide 50%",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 22000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Oxicloruro de Cobre 35% Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 16250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Oxicloruro de Cobre 58,8% Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 12750
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Predostar",
+  "Presentación del producto": "300 gramos",
+  "Precio promedio ": 24000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Prevalor Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 147500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Rally Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 301950
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Ridomil Gold MZ 68 Wg",
+  "Presentación del producto": "375 gramos",
+  "Precio promedio ": 31540
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Ridomil Gold MZ 68 Wp",
+  "Presentación del producto": "375 gramos",
+  "Precio promedio ": 27825
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Score 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 194242.8571429
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Score 250 Ec",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 24707.2857143
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Score 250 Ec",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 56564.75
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Tilt 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 129750
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Tilt 250 Ec",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 20500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Trivia Wp",
+  "Presentación del producto": "400 gramos",
+  "Precio promedio ": 29585
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Valthione 3 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 35900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Vitavax 300",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 55483.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "11",
+  "Nombre departamento ": "Bogotá, D.C.",
+  "Código municipio": "11001",
+  "Nombre municipio ": "Bogotá, D.C.",
+  "Nombre del producto": "Zoom 650 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 83433.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Afalon 50 Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 60450
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Atrazina 80% Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 36880
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Basagran Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 90500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Cerrero 200 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 17250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Diuron 80% Wg",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 46075
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Gavilan 240 Ec",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 32000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Glifosol Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 18000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Gramafin Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 17900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Panzer 480 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19350
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Panzer 747 Wg",
+  "Presentación del producto": "50 gramos",
+  "Precio promedio ": 4366.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Roundup Activo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 22000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Roundup Activo",
+  "Presentación del producto": "4 litros",
+  "Precio promedio ": 88050
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Select One Pack",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 68160
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Select One Pack",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 22920
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Sencor 480 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 194260
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Sencor 480 Sc",
+  "Presentación del producto": "200 centímetros cúbicos",
+  "Precio promedio ": 41133.3333333
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Tordon XT",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 43000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Enero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Verdict 1400",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 40200
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Afalon 50 Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 61250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Atrazina 80% Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 37140
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Cerrero 200 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 17850
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Diuron 80% Wg",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 46075
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Gavilan 240 Ec",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 31000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Glifosol Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 18000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Gramafin Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 17900
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Panzer 480 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19350
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Panzer 747 Wg",
+  "Presentación del producto": "50 gramos",
+  "Precio promedio ": 4300
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Roundup Activo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 22350
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Select One Pack",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 68160
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Select One Pack",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 22920
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Sencor 480 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 193300
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Sencor 480 Sc",
+  "Presentación del producto": "200 centímetros cúbicos",
+  "Precio promedio ": 42040
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Tordon XT",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 43000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Febrero",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Verdict 1400",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 40200
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Afalon 50 Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 60950
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Atrazina 80% Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 36220
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Basagran Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 91500
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Cerrero 200 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 18250
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Diuron 80% Wg",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 45925
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Gavilan 240 Ec",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 31000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Glifosol Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 18000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Gramafin Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 17650
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Panzer 480 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19600
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Panzer 747 Wg",
+  "Presentación del producto": "50 gramos",
+  "Precio promedio ": 4200
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Roundup Activo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 22275
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Roundup Activo",
+  "Presentación del producto": "4 litros",
+  "Precio promedio ": 81666.6666667
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Select One Pack",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 68040
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Select One Pack",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 22920
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Sencor 480 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 193300
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Sencor 480 Sc",
+  "Presentación del producto": "200 centímetros cúbicos",
+  "Precio promedio ": 41300
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Tordon XT",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 43000
+ },
+ {
+  "Año ": 2025,
+  "Mes": "Marzo",
+  "Código departamento": "15",
+  "Nombre departamento ": "Boyacá",
+  "Código municipio": "15001",
+  "Nombre municipio ": "Tunja",
+  "Nombre del producto": "Verdict 1400",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 40000
+ }
+],
+"INSUMOS":[
+ {
+  "Nombre del producto": "Afalon 50 Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 60950
+ },
+ {
+  "Nombre del producto": "Agrimins 8-5-0-6",
+  "Presentación del producto": "46 kilogramos",
+  "Precio promedio ": 136600
+ },
+ {
+  "Nombre del producto": "Agrimins Completo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28412.8333333
+ },
+ {
+  "Nombre del producto": "Agrimins Inicio",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 24033
+ },
+ {
+  "Nombre del producto": "Agrimins K Calcio Boro",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 22318.625
+ },
+ {
+  "Nombre del producto": "Agrotin Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 24870
+ },
+ {
+  "Nombre del producto": "Akito 38 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 68500
+ },
+ {
+  "Nombre del producto": "Alisin",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 61500
+ },
+ {
+  "Nombre del producto": "Alto 100 Sl",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 39794.25
+ },
+ {
+  "Nombre del producto": "Amistar Top",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 296125
+ },
+ {
+  "Nombre del producto": "Ana-Bor",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 43075
+ },
+ {
+  "Nombre del producto": "Antracol 70 Wp",
+  "Presentación del producto": "400 gramos",
+  "Precio promedio ": 25844.4444444
+ },
+ {
+  "Nombre del producto": "Antrasín Pc",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 35500
+ },
+ {
+  "Nombre del producto": "Athrin Brio GQA 100 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 131333.3333333
+ },
+ {
+  "Nombre del producto": "Atrazina 80% Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 36220
+ },
+ {
+  "Nombre del producto": "Awake 500 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 64500
+ },
+ {
+  "Nombre del producto": "Azoxystrobin 50 Wg",
+  "Presentación del producto": "40 gramos",
+  "Precio promedio ": 28311.1111111
+ },
+ {
+  "Nombre del producto": "Basagran Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 91500
+ },
+ {
+  "Nombre del producto": "Biozyme TF",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 137500
+ },
+ {
+  "Nombre del producto": "Borozinco Foliar",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28000
+ },
+ {
+  "Nombre del producto": "Brigada 100 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 97000
+ },
+ {
+  "Nombre del producto": "Calfos Granulado",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 64333.3333333
+ },
+ {
+  "Nombre del producto": "CapsiAlil Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 248500
+ },
+ {
+  "Nombre del producto": "Carbendazim 500 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 32815.3846154
+ },
+ {
+  "Nombre del producto": "Carrier",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 35800
+ },
+ {
+  "Nombre del producto": "Cayenne",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 178250
+ },
+ {
+  "Nombre del producto": "Cerostress",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 45800
+ },
+ {
+  "Nombre del producto": "Cerrero 200 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 18250
+ },
+ {
+  "Nombre del producto": "Ciromex Brio GQA 400 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 176000
+ },
+ {
+  "Nombre del producto": "Cloruro de Potasio 0-0-60",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 115340
+ },
+ {
+  "Nombre del producto": "Connect Duo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 206000
+ },
+ {
+  "Nombre del producto": "Coragen Sc",
+  "Presentación del producto": "200 centímetros cúbicos",
+  "Precio promedio ": 152000
+ },
+ {
+  "Nombre del producto": "Cosmo-Aguas",
+  "Presentación del producto": "200 gramos",
+  "Precio promedio ": 11750
+ },
+ {
+  "Nombre del producto": "Crecer 500",
+  "Presentación del producto": "900 gramos",
+  "Precio promedio ": 12812.5
+ },
+ {
+  "Nombre del producto": "Curaxil",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 17083.3333333
+ },
+ {
+  "Nombre del producto": "Curzate M-8",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 21070
+ },
+ {
+  "Nombre del producto": "Daconil 720 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 42837.5
+ },
+ {
+  "Nombre del producto": "Destello Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 218333.3333333
+ },
+ {
+  "Nombre del producto": "Difenoconazol 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 95200
+ },
+ {
+  "Nombre del producto": "Dinastia Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 181750
+ },
+ {
+  "Nombre del producto": "Diuron 80% Wg",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 45925
+ },
+ {
+  "Nombre del producto": "Elosal 720 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 27122.7272727
+ },
+ {
+  "Nombre del producto": "Engeo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 177375
+ },
+ {
+  "Nombre del producto": "Exalt 60 Sc",
+  "Presentación del producto": "100 centímetros cúbicos",
+  "Precio promedio ": 49333.3333333
+ },
+ {
+  "Nombre del producto": "Fastac 10 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 71150
+ },
+ {
+  "Nombre del producto": "Fentopen 500 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 85000
+ },
+ {
+  "Nombre del producto": "Fertilizante Orgánico de Lombriz San Rafael",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 20400
+ },
+ {
+  "Nombre del producto": "Fitoraz 76 Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 28018.1818182
+ },
+ {
+  "Nombre del producto": "Formador 2000",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 52880
+ },
+ {
+  "Nombre del producto": "Forum 500 Wp",
+  "Presentación del producto": "120 gramos",
+  "Precio promedio ": 16875
+ },
+ {
+  "Nombre del producto": "Fosetyl Aluminio 80 Wp",
+  "Presentación del producto": "330 gramos",
+  "Precio promedio ": 19250
+ },
+ {
+  "Nombre del producto": "Fosfato Diamónico (DAP) 18-46-0",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 203775
+ },
+ {
+  "Nombre del producto": "Fulminator 600 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 81375
+ },
+ {
+  "Nombre del producto": "Gavilan 240 Ec",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 31000
+ },
+ {
+  "Nombre del producto": "Glifosol Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 18000
+ },
+ {
+  "Nombre del producto": "Gramafin Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 17650
+ },
+ {
+  "Nombre del producto": "Hormonagro Ana",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 38000
+ },
+ {
+  "Nombre del producto": "Infinito Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 145680
+ },
+ {
+  "Nombre del producto": "Inspire Gold",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 190250
+ },
+ {
+  "Nombre del producto": "Isabion",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 75180
+ },
+ {
+  "Nombre del producto": "Karate Zeon",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 145900
+ },
+ {
+  "Nombre del producto": "Kasugamicina 20 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 40000
+ },
+ {
+  "Nombre del producto": "Kasumin 2% Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 36283.3333333
+ },
+ {
+  "Nombre del producto": "Klip - K Calcio-Boro",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 24000
+ },
+ {
+  "Nombre del producto": "Klip Boro",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 20950
+ },
+ {
+  "Nombre del producto": "Koyote Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 44666.6666667
+ },
+ {
+  "Nombre del producto": "Kunfu 100 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 73866.6666667
+ },
+ {
+  "Nombre del producto": "Lannate 40 Sp",
+  "Presentación del producto": "135 gramos",
+  "Precio promedio ": 16000
+ },
+ {
+  "Nombre del producto": "Luna Tranquility",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 264000
+ },
+ {
+  "Nombre del producto": "Magestic 75% Sp",
+  "Presentación del producto": "200 gramos",
+  "Precio promedio ": 17500
+ },
+ {
+  "Nombre del producto": "Malathion 57 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 41000
+ },
+ {
+  "Nombre del producto": "Mancozeb 80 Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 22951.75
+ },
+ {
+  "Nombre del producto": "Marax",
+  "Presentación del producto": "8 gramos",
+  "Precio promedio ": 9500
+ },
+ {
+  "Nombre del producto": "Matababosa 7%",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 14750
+ },
+ {
+  "Nombre del producto": "Mertect 500 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 340616.6666667
+ },
+ {
+  "Nombre del producto": "Methox 40 Sp",
+  "Presentación del producto": "135 gramos",
+  "Precio promedio ": 11000
+ },
+ {
+  "Nombre del producto": "Mixel Top Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19900
+ },
+ {
+  "Nombre del producto": "Nativo Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 153133.3333333
+ },
+ {
+  "Nombre del producto": "Nutrifoliar Completo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 28500
+ },
+ {
+  "Nombre del producto": "Nutrimins",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19425
+ },
+ {
+  "Nombre del producto": "Omex K-41",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 48500
+ },
+ {
+  "Nombre del producto": "Orthocide 50%",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 22000
+ },
+ {
+  "Nombre del producto": "Oxicloruro de Cobre 35% Wp",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 16250
+ },
+ {
+  "Nombre del producto": "Panzer 480 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 19600
+ },
+ {
+  "Nombre del producto": "Panzer 747 Wg",
+  "Presentación del producto": "50 gramos",
+  "Precio promedio ": 4200
+ },
+ {
+  "Nombre del producto": "Pegal Ph AE",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 50700
+ },
+ {
+  "Nombre del producto": "Pirestar 38 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 99666.6666667
+ },
+ {
+  "Nombre del producto": "Potak 41",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 30333.3333333
+ },
+ {
+  "Nombre del producto": "Predostar",
+  "Presentación del producto": "300 gramos",
+  "Precio promedio ": 24000
+ },
+ {
+  "Nombre del producto": "Prevalor Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 147500
+ },
+ {
+  "Nombre del producto": "Profenocron",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 60666.6666667
+ },
+ {
+  "Nombre del producto": "Progibb 10 Sp",
+  "Presentación del producto": "10 gramos",
+  "Precio promedio ": 10780
+ },
+ {
+  "Nombre del producto": "Raizal 400: 9-45-11",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 32500
+ },
+ {
+  "Nombre del producto": "Rally Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 301950
+ },
+ {
+  "Nombre del producto": "Requiem Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 97500
+ },
+ {
+  "Nombre del producto": "Ridomil Gold MZ 68 Wg",
+  "Presentación del producto": "375 gramos",
+  "Precio promedio ": 31540
+ },
+ {
+  "Nombre del producto": "Roundup Activo",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 22275
+ },
+ {
+  "Nombre del producto": "Sáfermix Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 46566.6666667
+ },
+ {
+  "Nombre del producto": "Sáfersoil Wp",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 39350
+ },
+ {
+  "Nombre del producto": "Score 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 194242.8571429
+ },
+ {
+  "Nombre del producto": "Select One Pack",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 68040
+ },
+ {
+  "Nombre del producto": "Sencor 480 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 193300
+ },
+ {
+  "Nombre del producto": "Serenade 1.34 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 56580
+ },
+ {
+  "Nombre del producto": "Sulfato de Amonio (SAM) 21-0-0-24(S)",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 90500
+ },
+ {
+  "Nombre del producto": "Sunfire 24 Sc",
+  "Presentación del producto": "120 centímetros cúbicos",
+  "Precio promedio ": 37200
+ },
+ {
+  "Nombre del producto": "Target 247 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 87750
+ },
+ {
+  "Nombre del producto": "Tilt 250 Ec",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 129750
+ },
+ {
+  "Nombre del producto": "Todo en Uno NF",
+  "Presentación del producto": "1 kilogramo",
+  "Precio promedio ": 11250
+ },
+ {
+  "Nombre del producto": "Tordon XT",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 43000
+ },
+ {
+  "Nombre del producto": "Tottal",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 27350
+ },
+ {
+  "Nombre del producto": "Trivia Wp",
+  "Presentación del producto": "400 gramos",
+  "Precio promedio ": 29585
+ },
+ {
+  "Nombre del producto": "Tumbador 250 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 150166.6666667
+ },
+ {
+  "Nombre del producto": "Urea 46%",
+  "Presentación del producto": "50 kilogramos",
+  "Precio promedio ": 134210
+ },
+ {
+  "Nombre del producto": "Valthione 3 Sl",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 35900
+ },
+ {
+  "Nombre del producto": "Verdict 1400",
+  "Presentación del producto": "250 centímetros cúbicos",
+  "Precio promedio ": 40000
+ },
+ {
+  "Nombre del producto": "Vitavax 300",
+  "Presentación del producto": "500 gramos",
+  "Precio promedio ": 55483.3333333
+ },
+ {
+  "Nombre del producto": "Zoom 650 Sc",
+  "Presentación del producto": "1 litro",
+  "Precio promedio ": 83433.3333333
  }
 ]
+}
