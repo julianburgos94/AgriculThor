@@ -19,6 +19,10 @@
             padding: 0.5rem;
             border-radius: 5px;
         }
+
+        .tabla-secundaria {
+            margin-top: 3rem;
+        }
     </style>
 </head>
 
@@ -68,6 +72,21 @@
             </thead>
             <tbody></tbody>
         </table>
+
+        <div class="tabla-secundaria">
+            <h2>Precios Diarios de Papa por Variedad (2024)</h2>
+            <table id="tablaPapa">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Criolla</th>
+                        <th>Diacol Capiro</th>
+                        <th>Superior</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
     </main>
 
     <script>
@@ -93,7 +112,16 @@
             ]
         };
 
+        const preciosPapa = [
+            { "Fecha": "lunes, 01 de enero de 2024", "Criolla": "$ 123.654", "Diacol Capiro": "$ 128.693", "Superior": "$ 108.433" },
+            { "Fecha": "martes, 02 de enero de 2024", "Criolla": "$ 115.795", "Diacol Capiro": "$ 106.396", "Superior": "$ 110.233" },
+            { "Fecha": "miercoles, 03 de enero de 2024", "Criolla": "$ 100.860", "Diacol Capiro": "$ 129.419", "Superior": "$ 111.016" }
+            // Agrega más entradas si lo deseas...
+            
+        ];
+
         const tablaBody = document.querySelector("#tablaPrecios tbody");
+        const tablaPapa = document.querySelector("#tablaPapa tbody");
         const filtroMes = document.getElementById("filtroMes");
         const filtroProducto = document.getElementById("filtroProducto");
 
@@ -140,11 +168,26 @@
             });
         };
 
+        const mostrarPreciosPapa = () => {
+            tablaPapa.innerHTML = '';
+            preciosPapa.forEach(dia => {
+                const fila = document.createElement("tr");
+                fila.innerHTML = `
+                    <td>${dia.Fecha}</td>
+                    <td>${dia.Criolla}</td>
+                    <td>${dia["Diacol Capiro"]}</td>
+                    <td>${dia.Superior}</td>
+                `;
+                tablaPapa.appendChild(fila);
+            });
+        };
+
         filtroMes.addEventListener('change', mostrarPrecios);
         filtroProducto.addEventListener('change', mostrarPrecios);
 
         llenarFiltros();
         mostrarPrecios();
+        mostrarPreciosPapa();
 
         function cerrarSesion() {
             localStorage.removeItem('agriculthorUser');
