@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const ciudad = data.city.name;
 
         const temp = primerBloque.main.temp;
-        const humedad = item.main.humidity;
-        const precipitacion = item.pop !== undefined ? item.pop * 100:0;
+        const humedad = primerBloque.main.humidity;
+        const precipitacion = primerBloque.pop !== undefined ? primerBloque.pop * 100:0;
         const icono = primerBloque.weather[0].icon;
         const descripcion = primerBloque.weather[0].description;
         const clase = obtenerClaseTemperatura(temp);
