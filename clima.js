@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
               <h3>${ciudad}</h3>
               <img src="https://openweathermap.org/img/wn/${icono}@2x.png" alt="${descripcion}">
               <p class="temp-principal">${Math.round(temp)}°C</p>
+              <p>Humedad: ${humedad}%</p>
+              <p>Precipitación: ${Math.round(precipitacion)}%</p>
               <p>${descripcion}</p>
             </div>
           `;
