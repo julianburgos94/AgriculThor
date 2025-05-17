@@ -7,83 +7,149 @@
     <title>AgriculThor - Precios de Productos</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="img/logo.png" type="image/png" />
+    <style>
+        .filtros {
+            margin: 1rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .filtros select {
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Barra de navegación -->
     <nav>
         <ul class="navbar">
-            <!-- Logo con redirección -->
             <li class="logo-container">
                 <a href="pagina2.html">
                     <img src="img/amarillo.png" alt="AgriculThor Logo" class="logo" />
                 </a>
             </li>
-
-            <!-- Enlaces del menú -->
             <li><a href="pagina3.html">Clima</a></li>
             <li><a href="pagina4.html">Precios</a></li>
             <li><a href="pagina5.html">Alertas</a></li>
             <li><a href="pagina6.html">Registrar Cosecha</a></li>
             <li><a href="pagina7.html">Recomendaciones</a></li>
             <li><a href="pagina8.html">Mapa</a></li>
-
-            <!-- Botón de cerrar sesión alineado a la derecha -->
             <li id="logout-container" style="margin-left: auto;">
                 <button onclick="cerrarSesion()" class="logout-btn">Cerrar sesión</button>
             </li>
         </ul>
     </nav>
 
-
     <main class="container">
-        <h1>Precios Estimados de Productos Agrícolas (Papa)</h1>
+        <h1>Precios de Insumos Agrícolas en Tunja - Boyacá (2025)</h1>
+
+        <div class="filtros">
+            <label for="filtroMes">Filtrar por mes:</label>
+            <select id="filtroMes">
+                <option value="">Todos</option>
+            </select>
+
+            <label for="filtroProducto">Filtrar por producto:</label>
+            <select id="filtroProducto">
+                <option value="">Todos</option>
+            </select>
+        </div>
+
         <table id="tablaPrecios">
             <thead>
                 <tr>
                     <th>Producto</th>
-                    <th>Precio (COP/kg)</th>
-                    <th>Fecha</th>
+                    <th>Presentación</th>
+                    <th>Mes</th>
+                    <th>Precio Promedio (COP)</th>
                 </tr>
             </thead>
-            <tbody>
-                <!-- Aquí se insertarán las filas dinámicamente -->
-            </tbody>
+            <tbody></tbody>
         </table>
     </main>
 
-
     <script>
-        // Función para cargar y mostrar datos del archivo precios.json
-        async function cargarPrecios() {
-            try {
-                const respuesta = await fetch('precios.json');
-                const precios = await respuesta.json();
-                const tbody = document.querySelector('#tablaPrecios tbody');
-                tbody.innerHTML = ''; // Limpiar tabla
+        const datosPrecios = {
+            "Hoja1": [
+                { "Mes": "Marzo", "Nombre del producto": "Alisin", "Presentación del producto": "1 litro", "Precio promedio ": 61500 },
+                { "Mes": "Marzo", "Nombre del producto": "CapsiAlil Ec", "Presentación del producto": "1 litro", "Precio promedio ": 248500 },
+                { "Mes": "Marzo", "Nombre del producto": "Sáfermix Wp", "Presentación del producto": "500 gramos", "Precio promedio ": 46566.67 },
+                { "Mes": "Marzo", "Nombre del producto": "Sáfersoil Wp", "Presentación del producto": "500 gramos", "Precio promedio ": 39350 },
+                { "Mes": "Marzo", "Nombre del producto": "Serenade 1.34 Sc", "Presentación del producto": "1 litro", "Precio promedio ": 56580 },
+                { "Mes": "Enero", "Nombre del producto": "Agrotin Sl", "Presentación del producto": "1 litro", "Precio promedio ": 24880 },
+                { "Mes": "Enero", "Nombre del producto": "Carrier", "Presentación del producto": "1 litro", "Precio promedio ": 34333.33 },
+                { "Mes": "Enero", "Nombre del producto": "Cosmo-Aguas", "Presentación del producto": "200 gramos", "Precio promedio ": 11750 },
+                { "Mes": "Enero", "Nombre del producto": "Marax 10 Sp", "Presentación del producto": "10 gramos", "Precio promedio ": 8750 },
+                { "Mes": "Enero", "Nombre del producto": "Matababosa 7%", "Presentación del producto": "500 gramos", "Precio promedio ": 15000 },
+                { "Mes": "Enero", "Nombre del producto": "Mixel Top Sl", "Presentación del producto": "1 litro", "Precio promedio ": 19566.67 },
+                { "Mes": "Enero", "Nombre del producto": "Mixel Top Sl", "Presentación del producto": "4 litros", "Precio promedio ": 70000 },
+                { "Mes": "Enero", "Nombre del producto": "Pegal Ph AE", "Presentación del producto": "1 litro", "Precio promedio ": 50225 },
+                { "Mes": "Enero", "Nombre del producto": "Progibb 10 Sp", "Presentación del producto": "10 gramos", "Precio promedio ": 10780 },
+                { "Mes": "Febrero", "Nombre del producto": "Agrotin Sl", "Presentación del producto": "1 litro", "Precio promedio ": 24987.5 },
+                { "Mes": "Febrero", "Nombre del producto": "Carrier", "Presentación del producto": "1 litro", "Precio promedio ": 35000 },
+                { "Mes": "Febrero", "Nombre del producto": "Cosmo-Aguas", "Presentación del producto": "200 gramos", "Precio promedio ": 11750 }
+            ]
+        };
 
-                // Iterar y agregar filas por cada producto
-                precios.forEach(item => {
-                    const fila = document.createElement('tr');
-                    fila.innerHTML = `
-            <td>${item.producto}</td>
-            <td>${item.precio}</td>
-            <td>${item.fecha}</td>
-          `;
-                    tbody.appendChild(fila);
-                });
-            } catch (error) {
-                console.error('Error al cargar precios:', error);
-            }
-        }
+        const tablaBody = document.querySelector("#tablaPrecios tbody");
+        const filtroMes = document.getElementById("filtroMes");
+        const filtroProducto = document.getElementById("filtroProducto");
 
-        // Cargar precios al cargar la página
-        document.addEventListener('DOMContentLoaded', cargarPrecios);
+        const llenarFiltros = () => {
+            const meses = new Set();
+            const productos = new Set();
+
+            datosPrecios.Hoja1.forEach(item => {
+                meses.add(item.Mes);
+                productos.add(item["Nombre del producto"]);
+            });
+
+            [...meses].sort().forEach(m => {
+                const opt = document.createElement("option");
+                opt.value = m;
+                opt.textContent = m;
+                filtroMes.appendChild(opt);
+            });
+
+            [...productos].sort().forEach(p => {
+                const opt = document.createElement("option");
+                opt.value = p;
+                opt.textContent = p;
+                filtroProducto.appendChild(opt);
+            });
+        };
+
+        const mostrarPrecios = () => {
+            const mes = filtroMes.value;
+            const prod = filtroProducto.value;
+            tablaBody.innerHTML = '';
+
+            datosPrecios.Hoja1.filter(item => {
+                return (!mes || item.Mes === mes) && (!prod || item["Nombre del producto"] === prod);
+            }).forEach(item => {
+                const fila = document.createElement("tr");
+                fila.innerHTML = `
+                    <td>${item["Nombre del producto"]}</td>
+                    <td>${item["Presentación del producto"]}</td>
+                    <td>${item["Mes"]}</td>
+                    <td>${Number(item["Precio promedio "]).toLocaleString()}</td>
+                `;
+                tablaBody.appendChild(fila);
+            });
+        };
+
+        filtroMes.addEventListener('change', mostrarPrecios);
+        filtroProducto.addEventListener('change', mostrarPrecios);
+
+        llenarFiltros();
+        mostrarPrecios();
 
         function cerrarSesion() {
             localStorage.removeItem('agriculthorUser');
-            localStorage.removeItem('registrosCosecha'); // opcional, si quieres borrar datos
-            window.location.href = 'index.html'; // redirige al login
+            localStorage.removeItem('registrosCosecha');
+            window.location.href = 'index.html';
         }
     </script>
 </body>
