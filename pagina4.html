@@ -2,198 +2,604 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AgriculThor - Precios de Productos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriculThor - Precios Agrícolas</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="img/logo.png" type="image/png" />
     <style>
-        .filtros {
-            margin: 1rem 0;
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF3E0;
+            color: #073a00;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #024200;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            background-color: #FAF3E0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .filters {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #FAF3E0;
+            border-radius: 6px;
         }
 
-        .filtros select {
-            padding: 0.5rem;
-            border-radius: 5px;
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            min-width: 200px;
         }
 
-        .tabla-secundaria {
-            margin-top: 3rem;
+        label {
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #185500;
+        }
+
+        select,
+        input {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 8px 15px;
+            background-color: #55db34;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ddcc37;
+        }
+
+        .reset-btn {
+            background-color: #c8d32d;
+        }
+
+        .reset-btn:hover {
+            background-color: #accf0d;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th,
+        td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2c5034;
+            color: white;
+            position: sticky;
+            top: 0;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        tr:hover {
+            background-color: #e9f7fe;
+        }
+
+        .price {
+            text-align: right;
+            font-family: 'Courier New', monospace;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(0, 73, 4, 0.3);
+            border-radius: 50%;
+            border-top-color: #08b32d;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 30px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        .error {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        .tab-container {
+            display: flex;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #ecf0f1;
+            border-radius: 5px 5px 0 0;
+            margin-right: 5px;
+        }
+
+        .tab.active {
+            background-color: #18aa18;
+            color: white;
+        }
+
+        .chart-container {
+            height: 300px;
+            margin-top: 20px;
         }
     </style>
 </head>
 
 <body>
+    <!-- Barra de navegación -->
     <nav>
         <ul class="navbar">
+            <!-- Logo con redirección -->
             <li class="logo-container">
                 <a href="pagina2.html">
                     <img src="img/amarillo.png" alt="AgriculThor Logo" class="logo" />
                 </a>
             </li>
+
+            <!-- Enlaces del menú -->
             <li><a href="pagina3.html">Clima</a></li>
             <li><a href="pagina4.html">Precios</a></li>
             <li><a href="pagina5.html">Alertas</a></li>
             <li><a href="pagina6.html">Registrar Cosecha</a></li>
             <li><a href="pagina7.html">Recomendaciones</a></li>
             <li><a href="pagina8.html">Mapa</a></li>
+
+            <!-- Botón de cerrar sesión alineado a la derecha -->
             <li id="logout-container" style="margin-left: auto;">
                 <button onclick="cerrarSesion()" class="logout-btn">Cerrar sesión</button>
             </li>
         </ul>
     </nav>
+    <div class="container">
+        <h1>Precios Agrícolas - Tunja, Boyacá</h1>
 
-    <main class="container">
-        <h1>Precios de Insumos Agrícolas en Tunja - Boyacá (2025)</h1>
-
-        <div class="filtros">
-            <label for="filtroMes">Filtrar por mes:</label>
-            <select id="filtroMes">
-                <option value="">Todos</option>
-            </select>
-
-            <label for="filtroProducto">Filtrar por producto:</label>
-            <select id="filtroProducto">
-                <option value="">Todos</option>
-            </select>
+        <div class="tab-container">
+            <div class="tab active" id="tabInsumos">Insumos Agrícolas</div>
+            <div class="tab" id="tabPapa">Precios de Papa</div>
         </div>
 
-        <table id="tablaPrecios">
-            <thead>
-                <tr>
-                    <th>Producto</th>
-                    <th>Presentación</th>
-                    <th>Mes</th>
-                    <th>Precio Promedio (COP)</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+        <!-- Sección de Insumos Agrícolas -->
+        <div class="section" id="insumosSection">
+            <h2>Precios de Insumos Agrícolas (2025)</h2>
 
-        <div class="tabla-secundaria">
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="filtroMesInsumo">Mes:</label>
+                    <select id="filtroMesInsumo">
+                        <option value="">Todos los meses</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filtroProductoInsumo">Producto:</label>
+                    <select id="filtroProductoInsumo">
+                        <option value="">Todos los productos</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filtroPresentacionInsumo">Presentación:</label>
+                    <select id="filtroPresentacionInsumo">
+                        <option value="">Todas las presentaciones</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="busquedaInsumo">Buscar:</label>
+                    <input type="text" id="busquedaInsumo" placeholder="Producto, presentación...">
+                </div>
+
+                <div class="filter-group" style="justify-content: flex-end;">
+                    <button id="resetInsumos" class="reset-btn">Reiniciar</button>
+                </div>
+            </div>
+
+            <div style="overflow-x: auto;">
+                <table id="tablaInsumos">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Presentación</th>
+                            <th>Mes</th>
+                            <th class="price">Precio (COP)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4" class="no-data">Cargando datos de insumos...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Sección de Precios de Papa -->
+        <div class="section" id="papaSection" style="display: none;">
             <h2>Precios Diarios de Papa por Variedad (2024)</h2>
-            <table id="tablaPapa">
-                <thead>
-                    <tr>
-                        <th>Fecha</th>
-                        <th>Criolla</th>
-                        <th>Diacol Capiro</th>
-                        <th>Superior</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="filtroMesPapa">Mes:</label>
+                    <select id="filtroMesPapa">
+                        <option value="">Todos los meses</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filtroVariedadPapa">Variedad:</label>
+                    <select id="filtroVariedadPapa">
+                        <option value="">Todas las variedades</option>
+                        <option value="Criolla">Criolla</option>
+                        <option value="Diacol Capiro">Diacol Capiro</option>
+                        <option value="Superior">Superior</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="busquedaPapa">Buscar por fecha:</label>
+                    <input type="text" id="busquedaPapa" placeholder="Ej: enero, febrero...">
+                </div>
+
+                <div class="filter-group" style="justify-content: flex-end;">
+                    <button id="resetPapa" class="reset-btn">Reiniciar</button>
+                </div>
+            </div>
+
+            <div style="overflow-x: auto;">
+                <table id="tablaPapa">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th class="price">Criolla</th>
+                            <th class="price">Diacol Capiro</th>
+                            <th class="price">Superior</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4" class="no-data">Cargando datos de precios de papa...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-    </main>
+    </div>
 
     <script>
-        const datosPrecios = {
-            "Hoja1": [
-                { "Mes": "Marzo", "Nombre del producto": "Alisin", "Presentación del producto": "1 litro", "Precio promedio ": 61500 },
-                { "Mes": "Marzo", "Nombre del producto": "CapsiAlil Ec", "Presentación del producto": "1 litro", "Precio promedio ": 248500 },
-                { "Mes": "Marzo", "Nombre del producto": "Sáfermix Wp", "Presentación del producto": "500 gramos", "Precio promedio ": 46566.67 },
-                { "Mes": "Marzo", "Nombre del producto": "Sáfersoil Wp", "Presentación del producto": "500 gramos", "Precio promedio ": 39350 },
-                { "Mes": "Marzo", "Nombre del producto": "Serenade 1.34 Sc", "Presentación del producto": "1 litro", "Precio promedio ": 56580 },
-                { "Mes": "Enero", "Nombre del producto": "Agrotin Sl", "Presentación del producto": "1 litro", "Precio promedio ": 24880 },
-                { "Mes": "Enero", "Nombre del producto": "Carrier", "Presentación del producto": "1 litro", "Precio promedio ": 34333.33 },
-                { "Mes": "Enero", "Nombre del producto": "Cosmo-Aguas", "Presentación del producto": "200 gramos", "Precio promedio ": 11750 },
-                { "Mes": "Enero", "Nombre del producto": "Marax 10 Sp", "Presentación del producto": "10 gramos", "Precio promedio ": 8750 },
-                { "Mes": "Enero", "Nombre del producto": "Matababosa 7%", "Presentación del producto": "500 gramos", "Precio promedio ": 15000 },
-                { "Mes": "Enero", "Nombre del producto": "Mixel Top Sl", "Presentación del producto": "1 litro", "Precio promedio ": 19566.67 },
-                { "Mes": "Enero", "Nombre del producto": "Mixel Top Sl", "Presentación del producto": "4 litros", "Precio promedio ": 70000 },
-                { "Mes": "Enero", "Nombre del producto": "Pegal Ph AE", "Presentación del producto": "1 litro", "Precio promedio ": 50225 },
-                { "Mes": "Enero", "Nombre del producto": "Progibb 10 Sp", "Presentación del producto": "10 gramos", "Precio promedio ": 10780 },
-                { "Mes": "Febrero", "Nombre del producto": "Agrotin Sl", "Presentación del producto": "1 litro", "Precio promedio ": 24987.5 },
-                { "Mes": "Febrero", "Nombre del producto": "Carrier", "Presentación del producto": "1 litro", "Precio promedio ": 35000 },
-                { "Mes": "Febrero", "Nombre del producto": "Cosmo-Aguas", "Presentación del producto": "200 gramos", "Precio promedio ": 11750 }
-            ]
-        };
+        // Datos de ejemplo para cuando no se puedan cargar los archivos
+        const datosInsumosEjemplo = [
+            { "Mes": "Enero", "Nombre del producto": "Fertilizante NPK", "Presentación del producto": "Saco 50kg", "Precio promedio ": 120000 },
+            { "Mes": "Enero", "Nombre del producto": "Herbicida Glifosato", "Presentación del producto": "Litro", "Precio promedio ": 45000 },
+            { "Mes": "Febrero", "Nombre del producto": "Fertilizante NPK", "Presentación del producto": "Saco 50kg", "Precio promedio ": 125000 },
+            { "Mes": "Febrero", "Nombre del producto": "Insecticida Imidacloprid", "Presentación del producto": "500 ml", "Precio promedio ": 78000 },
+            { "Mes": "Marzo", "Nombre del producto": "Herbicida Glifosato", "Presentación del producto": "Litro", "Precio promedio ": 48000 }
+        ];
 
-        const preciosPapa = [
+        const datosPapaEjemplo = [
             { "Fecha": "lunes, 01 de enero de 2024", "Criolla": "$ 123.654", "Diacol Capiro": "$ 128.693", "Superior": "$ 108.433" },
             { "Fecha": "martes, 02 de enero de 2024", "Criolla": "$ 115.795", "Diacol Capiro": "$ 106.396", "Superior": "$ 110.233" },
             { "Fecha": "miercoles, 03 de enero de 2024", "Criolla": "$ 100.860", "Diacol Capiro": "$ 129.419", "Superior": "$ 111.016" }
-            // Agrega más entradas si lo deseas...
-            
         ];
 
-        const tablaBody = document.querySelector("#tablaPrecios tbody");
-        const tablaPapa = document.querySelector("#tablaPapa tbody");
-        const filtroMes = document.getElementById("filtroMes");
-        const filtroProducto = document.getElementById("filtroProducto");
+        // Variables globales
+        let datosInsumos = [];
+        let datosPapa = [];
 
-        const llenarFiltros = () => {
-            const meses = new Set();
-            const productos = new Set();
+        // Elementos del DOM
+        const tabInsumos = document.getElementById('tabInsumos');
+        const tabPapa = document.getElementById('tabPapa');
+        const insumosSection = document.getElementById('insumosSection');
+        const papaSection = document.getElementById('papaSection');
 
-            datosPrecios.Hoja1.forEach(item => {
-                meses.add(item.Mes);
-                productos.add(item["Nombre del producto"]);
-            });
+        // Función para cambiar entre pestañas
+        tabInsumos.addEventListener('click', () => {
+            tabInsumos.classList.add('active');
+            tabPapa.classList.remove('active');
+            insumosSection.style.display = 'block';
+            papaSection.style.display = 'none';
+        });
 
-            [...meses].sort().forEach(m => {
-                const opt = document.createElement("option");
-                opt.value = m;
-                opt.textContent = m;
-                filtroMes.appendChild(opt);
-            });
+        tabPapa.addEventListener('click', () => {
+            tabPapa.classList.add('active');
+            tabInsumos.classList.remove('active');
+            papaSection.style.display = 'block';
+            insumosSection.style.display = 'none';
+        });
 
-            [...productos].sort().forEach(p => {
-                const opt = document.createElement("option");
-                opt.value = p;
-                opt.textContent = p;
-                filtroProducto.appendChild(opt);
-            });
-        };
+        // Cargar datos desde archivos
+        async function cargarDatos() {
+            try {
+                // Cargar datos de insumos desde el Excel convertido a JSON
+                const responseInsumos = await fetch('precios.json');
+                if (!responseInsumos.ok) throw new Error("No se pudo cargar precios.json");
 
-        const mostrarPrecios = () => {
-            const mes = filtroMes.value;
-            const prod = filtroProducto.value;
-            tablaBody.innerHTML = '';
+                const dataInsumos = await responseInsumos.json();
+                datosInsumos = dataInsumos.Hoja1 || dataInsumos;
 
-            datosPrecios.Hoja1.filter(item => {
-                return (!mes || item.Mes === mes) && (!prod || item["Nombre del producto"] === prod);
-            }).forEach(item => {
-                const fila = document.createElement("tr");
-                fila.innerHTML = `
-                    <td>${item["Nombre del producto"]}</td>
-                    <td>${item["Presentación del producto"]}</td>
-                    <td>${item["Mes"]}</td>
-                    <td>${Number(item["Precio promedio "]).toLocaleString()}</td>
+                // Cargar datos de papa desde el CSV convertido a JSON
+                const responsePapa = await fetch('precios_papa.json');
+                if (!responsePapa.ok) throw new Error("No se pudo cargar precios_papa.json");
+
+                const dataPapa = await responsePapa.json();
+                datosPapa = dataPapa || [];
+
+                // Inicializar las tablas
+                inicializarFiltrosInsumos();
+                mostrarInsumos();
+                inicializarFiltrosPapa();
+                mostrarPapa();
+
+            } catch (error) {
+                console.error("Error al cargar los datos:", error);
+
+                // Usar datos de ejemplo si hay error
+                datosInsumos = datosInsumosEjemplo;
+                datosPapa = datosPapaEjemplo;
+
+                // Mostrar mensaje de error
+                document.querySelector('#tablaInsumos tbody').innerHTML = `
+                    <tr>
+                        <td colspan="4" class="error">
+                            Error al cargar los datos. Mostrando datos de ejemplo.
+                        </td>
+                    </tr>
                 `;
-                tablaBody.appendChild(fila);
-            });
-        };
 
-        const mostrarPreciosPapa = () => {
-            tablaPapa.innerHTML = '';
-            preciosPapa.forEach(dia => {
-                const fila = document.createElement("tr");
-                fila.innerHTML = `
-                    <td>${dia.Fecha}</td>
-                    <td>${dia.Criolla}</td>
-                    <td>${dia["Diacol Capiro"]}</td>
-                    <td>${dia.Superior}</td>
+                document.querySelector('#tablaPapa tbody').innerHTML = `
+                    <tr>
+                        <td colspan="4" class="error">
+                            Error al cargar los datos. Mostrando datos de ejemplo.
+                        </td>
+                    </tr>
                 `;
-                tablaPapa.appendChild(fila);
-            });
-        };
 
-        filtroMes.addEventListener('change', mostrarPrecios);
-        filtroProducto.addEventListener('change', mostrarPrecios);
-
-        llenarFiltros();
-        mostrarPrecios();
-        mostrarPreciosPapa();
-
-        function cerrarSesion() {
-            localStorage.removeItem('agriculthorUser');
-            localStorage.removeItem('registrosCosecha');
-            window.location.href = 'index.html';
+                // Inicializar con datos de ejemplo
+                inicializarFiltrosInsumos();
+                mostrarInsumos();
+                inicializarFiltrosPapa();
+                mostrarPapa();
+            }
         }
+
+        // Funciones para insumos agrícolas
+        function inicializarFiltrosInsumos() {
+            const filtroMes = document.getElementById('filtroMesInsumo');
+            const filtroProducto = document.getElementById('filtroProductoInsumo');
+            const filtroPresentacion = document.getElementById('filtroPresentacionInsumo');
+
+            // Limpiar filtros
+            filtroMes.innerHTML = '<option value="">Todos los meses</option>';
+            filtroProducto.innerHTML = '<option value="">Todos los productos</option>';
+            filtroPresentacion.innerHTML = '<option value="">Todas las presentaciones</option>';
+
+            // Obtener valores únicos
+            const meses = [...new Set(datosInsumos.map(item => item.Mes))].sort();
+            const productos = [...new Set(datosInsumos.map(item => item["Nombre del producto"] || item.Producto))].sort();
+            const presentaciones = [...new Set(datosInsumos.map(item => item["Presentación del producto"] || item.Presentacion))].sort();
+
+            // Llenar filtro de meses
+            meses.forEach(mes => {
+                const option = document.createElement('option');
+                option.value = mes;
+                option.textContent = mes;
+                filtroMes.appendChild(option);
+            });
+
+            // Llenar filtro de productos
+            productos.forEach(producto => {
+                const option = document.createElement('option');
+                option.value = producto;
+                option.textContent = producto;
+                filtroProducto.appendChild(option);
+            });
+
+            // Llenar filtro de presentaciones
+            presentaciones.forEach(presentacion => {
+                const option = document.createElement('option');
+                option.value = presentacion;
+                option.textContent = presentacion;
+                filtroPresentacion.appendChild(option);
+            });
+
+            // Event listeners para filtros
+            filtroMes.addEventListener('change', mostrarInsumos);
+            filtroProducto.addEventListener('change', mostrarInsumos);
+            filtroPresentacion.addEventListener('change', mostrarInsumos);
+            document.getElementById('busquedaInsumo').addEventListener('input', mostrarInsumos);
+            document.getElementById('resetInsumos').addEventListener('click', reiniciarFiltrosInsumos);
+        }
+
+        function mostrarInsumos() {
+            const mes = document.getElementById('filtroMesInsumo').value;
+            const producto = document.getElementById('filtroProductoInsumo').value;
+            const presentacion = document.getElementById('filtroPresentacionInsumo').value;
+            const busqueda = document.getElementById('busquedaInsumo').value.toLowerCase();
+
+            const tbody = document.querySelector('#tablaInsumos tbody');
+            tbody.innerHTML = '';
+
+            // Filtrar datos
+            const datosFiltrados = datosInsumos.filter(item => {
+                const cumpleMes = !mes || item.Mes === mes;
+                const cumpleProducto = !producto || (item["Nombre del producto"] || item.Producto) === producto;
+                const cumplePresentacion = !presentacion || (item["Presentación del producto"] || item.Presentacion) === presentacion;
+                const cumpleBusqueda = !busqueda ||
+                    (item["Nombre del producto"] || item.Producto || '').toLowerCase().includes(busqueda) ||
+                    (item["Presentación del producto"] || item.Presentacion || '').toLowerCase().includes(busqueda) ||
+                    (item.Mes || '').toLowerCase().includes(busqueda) ||
+                    (item["Precio promedio "] || item.Precio || '').toString().includes(busqueda);
+
+                return cumpleMes && cumpleProducto && cumplePresentacion && cumpleBusqueda;
+            });
+
+            // Mostrar resultados
+            if (datosFiltrados.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="4" class="no-data">No se encontraron resultados con los filtros aplicados</td></tr>';
+                return;
+            }
+
+            datosFiltrados.forEach(item => {
+                const fila = document.createElement('tr');
+                fila.innerHTML = `
+                    <td>${item["Nombre del producto"] || item.Producto || 'N/A'}</td>
+                    <td>${item["Presentación del producto"] || item.Presentacion || 'N/A'}</td>
+                    <td>${item.Mes || 'N/A'}</td>
+                    <td class="price">$${Number(item["Precio promedio "] || item.Precio || 0).toLocaleString('es-CO')}</td>
+                `;
+                tbody.appendChild(fila);
+            });
+        }
+
+        function reiniciarFiltrosInsumos() {
+            document.getElementById('filtroMesInsumo').value = '';
+            document.getElementById('filtroProductoInsumo').value = '';
+            document.getElementById('filtroPresentacionInsumo').value = '';
+            document.getElementById('busquedaInsumo').value = '';
+            mostrarInsumos();
+        }
+
+        // Funciones para precios de papa
+        function inicializarFiltrosPapa() {
+            const filtroMes = document.getElementById('filtroMesPapa');
+
+            // Limpiar filtro de meses
+            filtroMes.innerHTML = '<option value="">Todos los meses</option>';
+
+            // Obtener meses únicos de las fechas
+            const mesesUnicos = new Set();
+            datosPapa.forEach(item => {
+                const fecha = item.Fecha;
+                const mes = fecha.split(' ')[3]; // Extraer el mes de la fecha
+                if (mes) mesesUnicos.add(mes.toLowerCase());
+            });
+
+            // Ordenar meses cronológicamente
+            const mesesOrden = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+                'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+            const mesesFiltro = [...mesesUnicos].sort((a, b) =>
+                mesesOrden.indexOf(a) - mesesOrden.indexOf(b));
+
+            // Llenar filtro de meses
+            mesesFiltro.forEach(mes => {
+                const option = document.createElement('option');
+                option.value = mes;
+                option.textContent = mes.charAt(0).toUpperCase() + mes.slice(1);
+                filtroMes.appendChild(option);
+            });
+
+            // Event listeners para filtros
+            filtroMes.addEventListener('change', mostrarPapa);
+            document.getElementById('filtroVariedadPapa').addEventListener('change', mostrarPapa);
+            document.getElementById('busquedaPapa').addEventListener('input', mostrarPapa);
+            document.getElementById('resetPapa').addEventListener('click', reiniciarFiltrosPapa);
+        }
+
+        function mostrarPapa() {
+            const mes = document.getElementById('filtroMesPapa').value.toLowerCase();
+            const variedad = document.getElementById('filtroVariedadPapa').value;
+            const busqueda = document.getElementById('busquedaPapa').value.toLowerCase();
+
+            const tbody = document.querySelector('#tablaPapa tbody');
+            tbody.innerHTML = '';
+
+            // Filtrar datos
+            const datosFiltrados = datosPapa.filter(item => {
+                const cumpleMes = !mes || item.Fecha.toLowerCase().includes(mes);
+                const cumpleBusqueda = !busqueda || item.Fecha.toLowerCase().includes(busqueda);
+
+                return cumpleMes && cumpleBusqueda;
+            });
+
+            // Mostrar resultados
+            if (datosFiltrados.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="4" class="no-data">No se encontraron resultados con los filtros aplicados</td></tr>';
+                return;
+            }
+
+            datosFiltrados.forEach(item => {
+                const fila = document.createElement('tr');
+
+                if (variedad) {
+                    // Mostrar solo la variedad seleccionada
+                    fila.innerHTML = `
+                        <td>${item.Fecha}</td>
+                        <td colspan="2" class="price">${item[variedad]}</td>
+                        <td style="display:none"></td>
+                    `;
+                } else {
+                    // Mostrar todas las variedades
+                    fila.innerHTML = `
+                        <td>${item.Fecha}</td>
+                        <td class="price">${item.Criolla}</td>
+                        <td class="price">${item["Diacol Capiro"]}</td>
+                        <td class="price">${item.Superior}</td>
+                    `;
+                }
+
+                tbody.appendChild(fila);
+            });
+        }
+
+        function reiniciarFiltrosPapa() {
+            document.getElementById('filtroMesPapa').value = '';
+            document.getElementById('filtroVariedadPapa').value = '';
+            document.getElementById('busquedaPapa').value = '';
+            mostrarPapa();
+        }
+
+        // Cargar datos al iniciar
+        document.addEventListener('DOMContentLoaded', cargarDatos);
     </script>
 </body>
 
