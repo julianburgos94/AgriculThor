@@ -2,25 +2,25 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AgriculThor - Bienvenida</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="welcome-style.css" />
-    <link rel="icon" href="img/logo.png" type="image/png" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AgriculThor - Bienvenida</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="welcome-style.css" />
+  <link rel="icon" href="img/logo.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body class="welcome-page">
- <!-- Barra de navegación -->
-<nav>
-  <ul class="navbar">
-    <!-- Logo con redirección -->
-    <li class="logo-container">
-      <a href="pagina2.html">
-        <img src="img/amarillo.png" alt="AgriculThor Logo" class="logo" />
-      </a>
-    </li>
+  <!-- Barra de navegación -->
+  <nav>
+    <ul class="navbar">
+      <!-- Logo con redirección -->
+      <li class="logo-container">
+        <a href="pagina2.html">
+          <img src="img/amarillo.png" alt="AgriculThor Logo" class="logo" />
+        </a>
+      </li>
 
     <!-- Enlaces del menú -->
     <li><a href="pagina3.html">Clima</a></li>
@@ -31,39 +31,41 @@
     <li><a href="./subasta-app/subasta-app/frontend/subasta.html">Subasta</a></li>
     <li><a href="pagina8.html">Mapa</a></li>
 
-    <!-- Botón de cerrar sesión alineado a la derecha -->
-    <li id="logout-container" style="margin-left: auto;">
-      <button onclick="cerrarSesion()" class="logout-btn">Cerrar sesión</button>
-    </li>
-  </ul>
-</nav>
 
-    <!-- Contenido principal con nuevos estilos -->
-    <main class="container">
-        <h1 id="welcomeMsg">Bienvenido a AgriculThor</h1>
-        <p>
-            Esta plataforma está diseñada para agricultores de Boyacá especializados en cultivo de papa.
-            Aquí podrás consultar información actualizada sobre el clima local, precios estimados de productos
-            agrícolas, recibir alertas importantes, registrar tu cosecha fácilmente y acceder a recomendaciones
-            básicas para optimizar tu cultivo.
-        </p>
-    </main>
+      <!-- Botón de cerrar sesión alineado a la derecha -->
+      <li id="logout-container" style="margin-left: auto;">
+        <button onclick="cerrarSesion()" class="logout-btn">Cerrar sesión</button>
+      </li>
+    </ul>
+  </nav>
 
-    <script>
-        // Al cargar la página, obtener el usuario almacenado y personalizar mensaje
-        document.addEventListener('DOMContentLoaded', () => {
-            const user = localStorage.getItem('agriculthorUser');
-            if (user) {
-                document.getElementById('welcomeMsg').textContent = `Bienvenido, ${user} a AgriculThor`;
-            }
-        });
+  <!-- Contenido principal con nuevos estilos -->
+  <main class="container">
+    <h1 id="welcomeMsg">Bienvenido a AgriculThor</h1>
+    <p>
+      Monitorea el clima, precios de insumos y recibe alertas para tu cultivo de papa. Registra tus cosechas y accede a
+      recomendaciones técnicas. Novedad: Ahora puedes vender tu producción mediante nuestro sistema de subastas en
+      línea, obteniendo los mejores precios del mercado.
 
-        function cerrarSesion() {
-            localStorage.removeItem('agriculthorUser');
-            localStorage.removeItem('registrosCosecha');
-            window.location.href = 'index.html';
-        }
-    </script>
+      Herramientas integrales para potenciar tu producción y comercialización.
+    </p>
+  </main>
+
+  <script>
+    // Al cargar la página, obtener el usuario almacenado y personalizar mensaje
+    document.addEventListener('DOMContentLoaded', () => {
+      const user = localStorage.getItem('agriculthorUser');
+      if (user) {
+        document.getElementById('welcomeMsg').textContent = `Bienvenido, ${user} a AgriculThor`;
+      }
+    });
+
+    function cerrarSesion() {
+      localStorage.removeItem('agriculthorUser');
+      localStorage.removeItem('registrosCosecha');
+      window.location.href = 'index.html';
+    }
+  </script>
 
 
 </body>
