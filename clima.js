@@ -22,6 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const ciudad = data.city.name;
 
         const temp = primerBloque.main.temp;
+        const humedad = item.main.humidity;
+        const precipitacion = item.pop !== undefined ? item.pop * 100:0;
         const icono = primerBloque.weather[0].icon;
         const descripcion = primerBloque.weather[0].description;
         const clase = obtenerClaseTemperatura(temp);
@@ -54,6 +56,8 @@ document.addEventListener('DOMContentLoaded', function () {
             fila.innerHTML = `
                 <td>${diaClave}</td>
                 <td>${Math.round(item.main.temp_max)}° / ${Math.round(item.main.temp_min)}°</td>
+                <td>${humedad}</td>
+                <td>${Math.round(precipitacion)}%</td>
                 <td><img src="https://openweathermap.org/img/wn/${item.weather[0].icon}.png" alt="${item.weather[0].description}" /></td>
                 <td>${item.weather[0].description}</td>
               `;
